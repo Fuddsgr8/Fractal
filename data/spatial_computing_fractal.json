@@ -1,0 +1,71 @@
+{
+  "spatial_entry": {
+    "symbol": "🌐",
+    "profound": "Core of spatial computing: blending real and virtual to create felt embodiment. Cultivates deeper sensory awareness, turning abstract ideas into tangible experiences for growth.",
+    "synthPhrase": "Where digital space becomes felt presence",
+    "dimension": "3D",
+    "layer": 0,
+    "forks": [
+      {
+        "label": "Engage Interaction",
+        "target": "spatial_interaction",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "spatial_interaction": {
+    "symbol": "🤲",
+    "profound": "Recursive feedback via gestures, haptics, and spatial audio in AR/VR. Actions in immersive spaces reinforce neural pathways, accelerating skill acquisition through embodied practice.",
+    "synthPhrase": "Touch the digital, train the nervous system",
+    "dimension": "4D",
+    "layer": 1,
+    "forks": [
+      {
+        "label": "Cognitive Extension",
+        "target": "spatial_cognition",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "spatial_cognition": {
+    "symbol": "🧠",
+    "profound": "Mind expands into digital space, offloading memory and visualization to environments. Uses spatial metaphors for abstract concepts, enabling fractal-like unpacking of complex ideas in consciousness.",
+    "synthPhrase": "Thought extends beyond the skull",
+    "dimension": "4D",
+    "layer": 2,
+    "forks": [
+      {
+        "label": "Foster Empathy",
+        "target": "spatial_empathy",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "spatial_empathy": {
+    "symbol": "👥",
+    "profound": "Inhabit others' perspectives through shared spatial experiences or avatars. Breaks ego boundaries, promoting collective awareness and recursive understanding of interconnected selves.",
+    "synthPhrase": "Walk in another's virtual skin",
+    "dimension": "4D",
+    "layer": 3,
+    "forks": [
+      {
+        "label": "Transcend Limits",
+        "target": "spatial_transcendence",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "spatial_transcendence": {
+    "symbol": "∞",
+    "profound": "At depth, dissolve body-digital divide for fluid, multi-dimensional identity. Recursive loops of embodiment lead to non-dual states, where spatial computing catalyzes absolute unity consciousness.",
+    "synthPhrase": "Digital and flesh dissolve into one field",
+    "dimension": "5D",
+    "layer": 4,
+    "forks": [],
+    "terminal": true
+  }
+}

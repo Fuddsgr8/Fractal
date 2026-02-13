@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🜏 NEXUS LABYRINTH 🜏 - 12D Modular</title>
+    
+    <!-- D3.js for 2D visualization -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <!-- Three.js for 3D visualization (using ES modules approach) -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            background: #0b0e14;
+            color: #0ff;
+            overflow: hidden;
+        }
+
+        svg {
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,20,40,0.95);
+            padding: 12px;
+            border: 2px solid #0ff;
+            border-radius: 8px;
+            z-index: 100;
+            font-size: 13px;
+        }
+
+        .tooltip, .modal {
+            position: absolute;
+            pointer-events: none;
+            background: rgba(0,0,0,0.95);
+            color: #0ff;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            max-width: 300px;
+            z-index: 200;
+        }
+
+        .modal {
+            pointer-events: auto;
+        }
+
+        .link {
+            stroke: #0ff;
+            stroke-opacity: 0.4;
+            stroke-width: 1px;
+        }
+
+        select, input[type="number"], input[type="checkbox"], button {
+            background: #0b0e14;
+            color: #0ff;
+            border: 1px solid #0ff;
+            padding: 2px 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background: #0ff;
+            color: #0b0e14;
+        }
+
+        /* View mode toggle */
+        #view-toggle {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,20,40,0.95);
+            padding: 8px 12px;
+            border: 2px solid #0ff;
+            border-radius: 8px;
+            z-index: 150;
+            font-size: 12px;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="controls">
+        <strong>🜏 NEXUS LABYRINTH 🜏</strong><br>
+        <div style="font-size: 10px; color: #888;">12D Modular Architecture</div>
+    </div>
+
+    <!-- View mode toggle -->
+    <div id="view-toggle">
+        <strong>VIEW:</strong>
+        <button id="btn-2d">📊 2D</button>
+        <button id="btn-3d">🌌 3D</button>
+    </div>
+
+    <svg></svg>
+    <div class="tooltip" style="display:none;"></div>
+
+    <!-- Load modules in dependency order -->
+    <script src="js/utils/VisibilityManager.js"></script>
+    <script src="js/core/DataLoader.js"></script>
+    <script src="js/core/Renderer.js"></script>
+    <script src="js/ui/Modal.js"></script>
+    <script src="js/ui/DevPanel.js"></script>
+    <script src="js/ui/DimensionLegend.js"></script>
+    <script src="js/ui/Minimap.js"></script>
+    <script src="js/core/NexusLabyrinth.js"></script>
+    
+    <!-- Three.js 3D module (loaded after THREE is available) -->
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        
+        // Make THREE and OrbitControls globally available separately
+        window.THREE = THREE;
+        window.THREEOrbitControls = OrbitControls;
+        
+        console.log('✅ Three.js ES modules loaded', { THREE: !!window.THREE, OrbitControls: !!window.THREEOrbitControls });
+        
+        // Load ThreeDRenderer after THREE is available
+        const script = document.createElement('script');
+        script.src = 'js/core/ThreeDRenderer.js';
+        script.onload = () => {
+            console.log('✅ ThreeDRenderer loaded');
+            initializeThreeD();
+        };
+        script.onerror = (e) => {
+            console.error('❌ Failed to load ThreeDRenderer:', e);
+        };
+        document.body.appendChild(script);
+        
+        function initializeThreeD() {
+            // Wait for nexus to be ready
+            if (typeof nexus === 'undefined') {
+                console.log('⏳ Waiting for nexus...');
+                setTimeout(initializeThreeD, 100);
+                return;
+            }
+            
+            try {
+                // Initialize 3D renderer
+                nexus.threeDRenderer = new ThreeDRenderer('body');
+                nexus.minimap = new Minimap(nexus);
+                
+                console.log('✅ 3D components initialized');
+                
+                // Setup view toggle
+                setupViewToggle();
+            } catch (e) {
+                console.error('❌ Failed to initialize 3D:', e);
+            }
+        }
+        
+        function setupViewToggle() {
+            let viewMode = '2d'; // Start in 2D mode
+            
+            // View toggle buttons
+            document.getElementById('btn-2d').addEventListener('click', () => {
+                viewMode = '2d';
+                document.querySelector('svg').style.display = 'block';
+                if (nexus.threeDRenderer) nexus.threeDRenderer.setVisible(false);
+                if (nexus.minimap) nexus.minimap.setVisible(false);
+                updateButtonStates();
+            });
+            
+            document.getElementById('btn-3d').addEventListener('click', () => {
+                viewMode = '3d';
+                document.querySelector('svg').style.display = 'none';
+                if (nexus.threeDRenderer) nexus.threeDRenderer.setVisible(true);
+                if (nexus.minimap) nexus.minimap.setVisible(true);
+                
+                // Convert Map to Array for 3D renderer
+                const nodesArray = Array.from(nexus.nodeMap.values());
+                const connectionsArray = nexus.links || [];
+                
+                // Load current data into 3D view
+                if (nodesArray.length > 0) {
+                    nexus.threeDRenderer.loadFractalData(
+                        nodesArray,
+                        connectionsArray,
+                        nexus.visibilityManager
+                    );
+                    nexus.minimap.render(
+                        nodesArray,
+                        connectionsArray,
+                        nexus.visibilityManager
+                    );
+                    
+                    console.log(`🌌 3D View loaded: ${nodesArray.length} nodes, ${connectionsArray.length} connections`);
+                }
+                
+                updateButtonStates();
+            });
+            
+            function updateButtonStates() {
+                document.getElementById('btn-2d').style.background = 
+                    viewMode === '2d' ? '#0ff' : '#0b0e14';
+                document.getElementById('btn-2d').style.color = 
+                    viewMode === '2d' ? '#0b0e14' : '#0ff';
+                document.getElementById('btn-3d').style.background = 
+                    viewMode === '3d' ? '#0ff' : '#0b0e14';
+                document.getElementById('btn-3d').style.color = 
+                    viewMode === '3d' ? '#0b0e14' : '#0ff';
+            }
+            updateButtonStates();
+            
+            // Listen for minimap node clicks
+            window.addEventListener('minimap-node-selected', (event) => {
+                const nodeData = event.detail.nodeData;
+                if (nexus.threeDRenderer) nexus.threeDRenderer.flyToNode(nodeData.id);
+            });
+            
+            // Listen for 3D node clicks
+            window.addEventListener('node-selected-3d', (event) => {
+                const nodeData = event.detail.nodeData;
+                if (nexus.minimap) nexus.minimap.highlightNode(nodeData.id);
+                // Show modal in 3D view too
+                if (nexus.showNodeDetail) nexus.showNodeDetail(nodeData);
+            });
+            
+            // Listen for visibility changes in DevPanel
+            window.addEventListener('visibility-changed', (event) => {
+                if (viewMode === '3d' && nexus.threeDRenderer && nexus.minimap) {
+                    nexus.threeDRenderer.updateVisibility(nexus.visibilityManager);
+                    
+                    // Re-render minimap with updated visibility
+                    const nodesArray = Array.from(nexus.nodeMap.values());
+                    const connectionsArray = nexus.links || [];
+                    nexus.minimap.render(
+                        nodesArray,
+                        connectionsArray,
+                        nexus.visibilityManager
+                    );
+                }
+            });
+        }
+    </script>
+    
+    <!-- Initialize Nexus -->
+    <script>
+        // Configuration
+        const DEV_MODE = true;
+        const DEBUG = true;
+
+        // Create global nexus instance
+        const nexus = new NexusLabyrinth(DEV_MODE, DEBUG);
+        window.nexus = nexus;
+        
+        console.log("🌐 Modular Nexus Labyrinth loaded");
+        console.log("📊 Modules active:", {
+            DataLoader: typeof DataLoader !== 'undefined',
+            VisibilityManager: typeof VisibilityManager !== 'undefined',
+            Renderer: typeof Renderer !== 'undefined',
+            Modal: typeof Modal !== 'undefined',
+            DevPanel: typeof DevPanel !== 'undefined',
+            Minimap: typeof Minimap !== 'undefined',
+            NexusLabyrinth: typeof NexusLabyrinth !== 'undefined'
+        });
+    </script>
+
+</body>
+</html>

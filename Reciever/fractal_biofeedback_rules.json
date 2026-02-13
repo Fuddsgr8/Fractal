@@ -1,0 +1,15 @@
+{
+    "guardianRuleName": "coherence_cannot_be_watched",
+    "appliesToFractals": [
+        "embodied-biofeedback",
+        "shadow-over-optimization",
+        "spatial-computing-embodiment"
+    ],
+    "triggerCondition": "player engages in over-control or metric fetish behaviors (e.g., prolonged Layer 6+ surveillance, repeated metric looping, obsessive self-monitoring)",
+    "effect": [
+        "Biofeedback resolution reduces progressively: numeric → range → texture → silence",
+        "Spatial and XR visuals soften or blur; haptic feedback shifts from responsive to ambient",
+        "Forward progression gates remain closed until player relinquishes controller behavior"
+    ],
+    "description": "A system-level safeguard enforcing that coherence cannot be forced or observed as a metric. Encourages natural surrender and embodied presence; prevents performative or narcissistic exploitation of fractals."
+}

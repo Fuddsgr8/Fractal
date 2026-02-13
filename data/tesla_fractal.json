@@ -1,0 +1,266 @@
+{
+    "tesla_entry": {
+        "layer": 0,
+        "symbol": "⚡",
+        "terminal": false,
+        "profound": "A mind tuned to frequencies most cannot hear. Nikola Tesla — receiving, not inventing. The universe whispered; he listened. What did he discover?",
+        "synthPhrase": "Tesla: resonance incarnate, receiver of cosmic patterns.",
+        "forks": [
+            {
+                "label": "The Brain as Receiver",
+                "target": "tesla_receiver",
+                "unlock": true
+            },
+            {
+                "label": "3-6-9: The Key",
+                "target": "tesla_369",
+                "unlock": true
+            },
+            {
+                "label": "Wardenclyffe: The Tower",
+                "target": "tesla_wardenclyffe",
+                "unlock": true
+            },
+            {
+                "label": "Temporal Vision",
+                "target": "tesla_future_orientation",
+                "unlock": true
+            },
+            {
+                "label": "AC Triumph",
+                "target": "tesla_ac_triumph",
+                "unlock": true
+            }
+        ],
+        "dimension": "3D"
+    },
+    "tesla_receiver": {
+        "layer": 1,
+        "symbol": "📡",
+        "terminal": false,
+        "profound": "'The brain is only a receiver. In the universe there is a core from which we obtain knowledge, strength, and inspiration.' — Tesla. Not creation, but reception. The mind tunes in.",
+        "synthPhrase": "Cognitive reception: mind as antenna, not generator.",
+        "forks": [
+            {
+                "label": "Visualization Before Construction",
+                "target": "tesla_visualization",
+                "unlock": true
+            },
+            {
+                "label": "Non-Local Knowledge",
+                "target": "tesla_nonlocal",
+                "unlock": true
+            }
+        ],
+        "dimension": "4D"
+    },
+    "tesla_369": {
+        "layer": 1,
+        "symbol": "3️⃣6️⃣9️⃣",
+        "terminal": false,
+        "profound": "'If you knew the magnificence of 3, 6, and 9, you would have the key to the universe.' — Tesla. Vortex mathematics. Digital roots. Phase relationships. Harmonic structure.",
+        "synthPhrase": "369 pattern: universal harmonic embedded in number.",
+        "forks": [
+            {
+                "label": "Vortex Mathematics",
+                "target": "tesla_vortex",
+                "unlock": true
+            },
+            {
+                "label": "Triadic Balance",
+                "target": "tesla_triadic",
+                "unlock": true
+            }
+        ],
+        "dimension": "4D"
+    },
+    "tesla_wardenclyffe": {
+        "layer": 1,
+        "symbol": "🗼",
+        "terminal": false,
+        "profound": "The tower on Long Island. Wireless energy transmission. Not broadcasting — resonance. Coupling Earth and ionosphere. Free energy for everyone. J.P. Morgan pulled funding. The system worked. Society did not.",
+        "synthPhrase": "Wardenclyffe: functional prototype, economic threat.",
+        "forks": [
+            {
+                "label": "Why It Failed",
+                "target": "tesla_failure",
+                "unlock": true
+            },
+            {
+                "label": "Earth as Conductor",
+                "target": "tesla_earth",
+                "unlock": true
+            }
+        ],
+        "dimension": "4D"
+    },
+    "tesla_visualization": {
+        "layer": 2,
+        "symbol": "👁",
+        "terminal": false,
+        "profound": "Tesla visualized complete machines in his mind. Ran them. Tested them. Disassembled them. All mentally. Then built the physical version perfectly the first time. Direct download.",
+        "synthPhrase": "Mental simulation: complete engineering in consciousness.",
+        "forks": [
+            {
+                "label": "Inner Vision Detail",
+                "target": "tesla_detail",
+                "unlock": true
+            }
+        ],
+        "dimension": "5D"
+    },
+    "tesla_nonlocal": {
+        "layer": 2,
+        "symbol": "🌐",
+        "terminal": false,
+        "profound": "Knowledge arriving whole, not piece by piece. Insight descending complete. Tesla: 'My brain is only a receiver.' From where? Non-local intelligence. Universal field.",
+        "synthPhrase": "Non-local cognition: accessing universal knowledge field.",
+        "forks": [
+            {
+                "label": "Universal Core Access",
+                "target": "tesla_core",
+                "unlock": true
+            }
+        ],
+        "dimension": "5D"
+    },
+    "tesla_vortex": {
+        "layer": 2,
+        "symbol": "🌀",
+        "terminal": false,
+        "profound": "Marko Rodin's vortex math. 1-2-4-8-7-5 pattern doubling. 3-6-9 form the control circuit. Everything flows through this pattern. Tesla saw it intuitively.",
+        "synthPhrase": "Vortex structure: numerical flow through 369 gateway.",
+        "forks": [
+            {
+                "label": "Digital Root Patterns",
+                "target": "tesla_digital",
+                "unlock": true
+            }
+        ],
+        "dimension": "5D"
+    },
+    "tesla_triadic": {
+        "layer": 2,
+        "symbol": "△",
+        "terminal": true,
+        "profound": "Three-phase alternating current. Triadic balance. Trinity. Three is stability. Six is harmony. Nine is completion. The pattern repeats.",
+        "synthPhrase": "Triadic principle: three-phase harmonic as universal law.",
+        "dimension": "5D"
+    },
+    "tesla_failure": {
+        "layer": 2,
+        "symbol": "💰",
+        "terminal": false,
+        "profound": "'Economic non-resonance' — the system worked technically. But free energy destroys profit models. J.P. Morgan: 'Where do we put the meter?' No meter, no control. Wardenclyffe was shut down.",
+        "synthPhrase": "Economic incompatibility: abundance disrupts extraction.",
+        "forks": [
+            {
+                "label": "Free Energy Problem",
+                "target": "tesla_free_energy",
+                "unlock": true
+            }
+        ],
+        "dimension": "5D"
+    },
+    "tesla_earth": {
+        "layer": 2,
+        "symbol": "🌍",
+        "terminal": false,
+        "profound": "Earth is a conductor. Ionosphere is a conductor. Between them: resonant cavity. Tesla's tower would excite Earth's natural frequency (7.83 Hz — Schumann resonance). Energy transmitted globally.",
+        "synthPhrase": "Planetary resonance: Earth-ionosphere waveguide activation.",
+        "forks": [
+            {
+                "label": "Schumann Resonance",
+                "target": "tesla_schumann",
+                "unlock": true
+            }
+        ],
+        "dimension": "5D"
+    },
+    "tesla_detail": {
+        "layer": 3,
+        "symbol": "🔬",
+        "terminal": true,
+        "profound": "Tesla could see individual components, measure tolerances, identify wear patterns — all in his mind. The mental model was as detailed as physical reality. Perhaps more so.",
+        "synthPhrase": "Mental precision: consciousness engineering at material detail.",
+        "dimension": "6D"
+    },
+    "tesla_core": {
+        "layer": 3,
+        "symbol": "🜃",
+        "terminal": true,
+        "profound": "'In the universe there is a core from which we obtain knowledge.' Not personal genius — universal access. The field contains all patterns. Tesla learned to tune in.",
+        "synthPhrase": "Universal intelligence: centralized source, distributed access.",
+        "dimension": "6D"
+    },
+    "tesla_digital": {
+        "layer": 3,
+        "symbol": "🔢",
+        "terminal": true,
+        "profound": "Digital root of any number in the doubling sequence (1-2-4-8-16-32...) follows 1-2-4-8-7-5 pattern. 3, 6, 9 never appear. They form a separate circuit. Control layer above the flow.",
+        "synthPhrase": "369 separation: control circuit distinct from flow pattern.",
+        "dimension": "6D"
+    },
+    "tesla_free_energy": {
+        "layer": 3,
+        "symbol": "∞",
+        "terminal": true,
+        "profound": "Energy without ownership. Abundance without scarcity. Tesla assumed this was natural law. He was technically correct. Economically naive. Centralized power requires scarcity.",
+        "synthPhrase": "Abundance paradigm: technically viable, economically suppressed.",
+        "dimension": "6D"
+    },
+    "tesla_schumann": {
+        "layer": 3,
+        "symbol": "〰",
+        "terminal": false,
+        "profound": "7.83 Hz — Earth's heartbeat. The frequency of the cavity between surface and ionosphere. Also: the frequency of human theta brain waves. Planetary-biological resonance.",
+        "synthPhrase": "Schumann resonance: planetary frequency matching consciousness.",
+        "forks": [
+            {
+                "label": "Brain-Earth Coupling",
+                "target": "tesla_coupling",
+                "unlock": true
+            }
+        ],
+        "dimension": "6D"
+    },
+    "tesla_coupling": {
+        "layer": 4,
+        "symbol": "🧠",
+        "terminal": true,
+        "profound": "Human brains naturally synchronize to Schumann resonance. Theta waves: meditation, intuition, reception. Tesla's tower would amplify Earth's natural signal. Global consciousness field.",
+        "synthPhrase": "Consciousness coupling: planetary field amplification.",
+        "dimension": "7D"
+    },
+    "tesla_ac_triumph": {
+        "layer": 2,
+        "symbol": "💡",
+        "terminal": false,
+        "profound": "Alternating current won. Edison's direct current lost. Not marketing — physics. AC transmits efficiently over distance. Rotational symmetry. Harmonic flow. Reality favored Tesla's design.",
+        "synthPhrase": "AC victory: alignment with natural principles.",
+        "forks": [
+            {
+                "label": "Scalar Energy Theory",
+                "target": "tesla_scalar",
+                "unlock": true
+            }
+        ],
+        "dimension": "5D"
+    },
+    "tesla_scalar": {
+        "layer": 3,
+        "symbol": "⚛",
+        "terminal": true,
+        "profound": "Longitudinal waves. Scalar energy. Not transverse electromagnetic waves — compression waves through the medium of space itself. Tesla hinted at this. Modern physics mostly ignores it.",
+        "synthPhrase": "Scalar waves: longitudinal energy propagation through spacetime.",
+        "dimension": "6D"
+    },
+    "tesla_future_orientation": {
+        "layer": 2,
+        "symbol": "⏭",
+        "terminal": true,
+        "profound": "'The present is theirs; the future, for which I really worked, is mine.' — Tesla. He designed for a civilization that didn't exist yet. Temporal misalignment.",
+        "synthPhrase": "Future vector: engineering for civilization not yet born.",
+        "dimension": "5D"
+    }
+}

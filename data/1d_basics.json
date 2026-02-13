@@ -1,0 +1,207 @@
+{
+    "1d_root": {
+        "symbol": "∅",
+        "profound": "The Void: Before anything, a quiet emptiness. No light, no sound — just pure potential. This is the starting point of all things, where low awareness begins as a gentle calm, unaware of what might come.",
+        "synthPhrase": "Emptiness full of possibility.",
+        "dimension": "1D",
+        "layer": 1,
+        "forks": [
+            {
+                "label": "Awaken to a Point",
+                "target": "1d_point",
+                "unlock": true
+            },
+            {
+                "label": "Sense Early Whispers (Void Hum)",
+                "target": "1d_void_fluctuations",
+                "unlock": true
+            }
+        ],
+        "terminal": false
+    },
+    "1d_point": {
+        "symbol": "•",
+        "profound": "The Point: The first spark. Everything packed into one tiny spot — the seed of existence. In this simple state, awareness is just 'being,' like a single note before the song starts.",
+        "synthPhrase": "One point, infinite hold.",
+        "dimension": "1D",
+        "layer": 1,
+        "forks": [
+            {
+                "label": "Stretch into a Line",
+                "target": "1d_line",
+                "unlock": true
+            },
+            {
+                "label": "Feel Subtle Tremors (Point Jitter)",
+                "target": "1d_point_fluctuations",
+                "unlock": true
+            }
+        ],
+        "terminal": false
+    },
+    "1d_line": {
+        "symbol": "—",
+        "profound": "The Line: Extension begins. A straight path with direction — forward or back. Like a river flowing one way, this is basic movement in a single dimension, where awareness starts to sense flow without choices.",
+        "synthPhrase": "Directed flow emerges.",
+        "dimension": "1D",
+        "layer": 2,
+        "forks": [
+            {
+                "label": "Expand with Time",
+                "target": "1d_time",
+                "unlock": true
+            },
+            {
+                "label": "Embrace Oneness",
+                "target": "1d_oneness",
+                "unlock": true
+            },
+            {
+                "label": "Notice Tiny Wiggles (Fluctuations)",
+                "target": "1d_fluctuations",
+                "unlock": true
+            },
+            {
+                "label": "Explore Line's Gentle Bend (Subtle Tease)",
+                "target": "1d_curvature",
+                "unlock": false
+            }
+        ],
+        "terminal": false
+    },
+    "1d_time": {
+        "symbol": "→",
+        "profound": "Time Begins: Change unfolds along the line. One moment leads to the next, like steps on a path. In this low awareness, it's just simple succession — no looking back, only forward.",
+        "synthPhrase": "Change in sequence.",
+        "dimension": "1D",
+        "layer": 2,
+        "forks": [
+            {
+                "label": "Consider a Soft Loop (Cyclic Hint)",
+                "target": "1d_time_loop",
+                "unlock": false
+            }
+        ],
+        "terminal": false
+    },
+    "1d_oneness": {
+        "symbol": "1",
+        "profound": "Oneness: All along the line feels connected. No breaks or separations — a quiet unity. Drawing from simple spiritual ideas, like Eliphas Lévi's 'astral light,' it's a gentle flow where everything is part of the whole.",
+        "synthPhrase": "Unity in the flow.",
+        "dimension": "1D",
+        "layer": 2,
+        "terminal": true
+    },
+    "1d_fluctuations": {
+        "symbol": "~",
+        "profound": "Quantum Fluctuations: Even in calm space, there's a soft jitter — tiny energies borrow and return quickly. In low awareness, it's like a background hum, adding subtle life to the stillness.",
+        "synthPhrase": "Soft buzz in the void.",
+        "dimension": "1D",
+        "layer": 3,
+        "forks": [
+            {
+                "label": "Why Stronger in 1D",
+                "target": "1d_fluctuations_1d",
+                "unlock": true
+            },
+            {
+                "label": "Blend with Spiritual Ether (Lévi Hint)",
+                "target": "1d_levi_fluctuations",
+                "unlock": true
+            }
+        ],
+        "terminal": false
+    },
+    "1d_fluctuations_1d": {
+        "symbol": "∿",
+        "profound": "In 1D: The jitters feel stronger because everything is confined to one line — no room to spread. Like a string vibrating more intensely when pulled tight.",
+        "synthPhrase": "Confined energy shakes.",
+        "dimension": "1D",
+        "layer": 3,
+        "forks": [
+            {
+                "label": "See Simple Effects",
+                "target": "1d_fluctuations_effects",
+                "unlock": true
+            }
+        ],
+        "terminal": false
+    },
+    "1d_fluctuations_effects": {
+        "symbol": "⚡",
+        "profound": "Effects: These wiggles prevent total stillness, sparking gentle changes. In basic terms, they seed potential — a bridge between science's randomness and spirituality's subtle forces.",
+        "synthPhrase": "Wiggles spark change.",
+        "dimension": "1D",
+        "layer": 3,
+        "terminal": true
+    },
+    "1d_void_fluctuations": {
+        "symbol": "∼∅",
+        "profound": "Void Hum: In the emptiness, faint whispers arise — early fluctuations hinting at energy. Low awareness feels this as a peaceful, unaware pulse.",
+        "synthPhrase": "Emptiness whispers softly.",
+        "dimension": "1D",
+        "layer": 1,
+        "forks": [
+            {
+                "label": "Connect to the Point",
+                "target": "1d_point",
+                "unlock": true
+            }
+        ],
+        "terminal": false
+    },
+    "1d_point_fluctuations": {
+        "symbol": "•~",
+        "profound": "Point Jitter: The single point isn't perfectly still — subtle trembles suggest instability. Like a seed ready to grow, in simple quantum-spiritual terms.",
+        "synthPhrase": "Spark with subtle pulse.",
+        "dimension": "1D",
+        "layer": 1,
+        "forks": [
+            {
+                "label": "Extend with Tremble",
+                "target": "1d_line",
+                "unlock": true
+            }
+        ],
+        "terminal": false
+    },
+    "1d_curvature": {
+        "symbol": "⌢",
+        "profound": "Gentle Bend: The line isn't always perfectly straight — a subtle curve hints at more. In low awareness, it's just a soft wave in the flow.",
+        "synthPhrase": "Flow with subtle curve.",
+        "dimension": "1D",
+        "layer": 2,
+        "terminal": true
+    },
+    "1d_time_loop": {
+        "symbol": "∞→",
+        "profound": "Soft Loop: Time might circle gently back, like an eternal rhythm. A basic cycle in the line, blending simple science with spiritual recurrence.",
+        "synthPhrase": "Flow that returns.",
+        "dimension": "1D",
+        "layer": 2,
+        "terminal": true
+    },
+    "1d_levi_fluctuations": {
+        "symbol": "~✨",
+        "profound": "Lévi's Ether Blend: Drawing from Eliphas Lévi, these wiggles mix with a spiritual 'astral light' — a gentle force uniting science and spirit in the line's hum.",
+        "synthPhrase": "Quantum meets soft magic.",
+        "dimension": "1D",
+        "layer": 3,
+        "forks": [
+            {
+                "label": "Explore Basic Synthesis",
+                "target": "1d_levi_synthesis",
+                "unlock": true
+            }
+        ],
+        "terminal": false
+    },
+    "1d_levi_synthesis": {
+        "symbol": "🔗",
+        "profound": "Simple Synthesis: Lévi saw a bridge between science (like quantum buzz) and spirituality (divine flow). In 1D, it's a quiet harmony, easy to feel without overwhelming.",
+        "synthPhrase": "Science and spirit unite.",
+        "dimension": "1D",
+        "layer": 3,
+        "terminal": true
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "beta_root": {
+        "symbol": "B0",
+        "layer": 0,
+        "dimension": 2,
+        "forks": [
+            {
+                "label": "Return to Alpha",
+                "target": "alpha_mid"
+            },
+            {
+                "label": "Continue",
+                "target": "beta_deep"
+            }
+        ]
+    },
+
+    "beta_deep": {
+        "symbol": "B1",
+        "layer": 1,
+        "dimension": 2,
+        "terminal": true
+    }
+}

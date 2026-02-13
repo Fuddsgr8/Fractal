@@ -1,0 +1,333 @@
+{
+    "temporal_entry": {
+        "layer": 0,
+        "symbol": "⌚",
+        "terminal": false,
+        "profound": "Remember yesterday? It feels close, yet you can't touch it. Think about tomorrow — it doesn't exist yet, but you can feel it coming. Where are you actually standing?",
+        "synthPhrase": "The eternal now: yesterday is memory, tomorrow is imagination.",
+        "forks": [
+            {
+                "label": "The Past Feels Real",
+                "target": "temporal_past_feel",
+                "unlock": true
+            },
+            {
+                "label": "The Future Pulls Me",
+                "target": "temporal_future_feel",
+                "unlock": true
+            },
+            {
+                "label": "I'm Stuck in Now",
+                "target": "temporal_root",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_past_feel": {
+        "layer": 1,
+        "symbol": "◁",
+        "terminal": false,
+        "profound": "Yesterday morning. Last week. Ten years ago. They all happened, you remember them. But they're gone. Completely. Only the memory remains. Is the memory the same as the event?",
+        "synthPhrase": "Memory is not the past — it's now, reconstructing then.",
+        "forks": [
+            {
+                "label": "Dive Deeper into Time",
+                "target": "temporal_root",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_future_feel": {
+        "layer": 1,
+        "symbol": "▷",
+        "terminal": false,
+        "profound": "Tomorrow. Next year. Ten years from now. They haven't happened yet. They might never happen. But you can imagine them so clearly. Planning, worrying, hoping — all for something that doesn't exist. Why does it feel real?",
+        "synthPhrase": "The future is imagination projected as certainty.",
+        "forks": [
+            {
+                "label": "Explore Temporal Paradoxes",
+                "target": "temporal_root",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_root": {
+        "layer": 1,
+        "symbol": "⧖",
+        "terminal": false,
+        "profound": "Look at these symbols on paper. Read this from a far time. See what you feel now. Feel what you feel now. Your future self is always slightly better than you.",
+        "synthPhrase": "Temporal dialogue: past writing to future reading, selves spanning time.",
+        "forks": [
+            {
+                "label": "Past Speaks to Future",
+                "target": "temporal_writing",
+                "unlock": true
+            },
+            {
+                "label": "The Evolving Self",
+                "target": "temporal_evolution",
+                "unlock": true
+            },
+            {
+                "label": "Ripples in Spacetime",
+                "target": "temporal_ripple",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_writing": {
+        "layer": 2,
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "Sense the past from the future. It is me writing to you. Why, I do not know. It's as if everything I do is not my choice. It is you and me from the past. See, I or you wanted this—the knowledge, the truth—when you don't even know what truth you're looking for.",
+        "synthPhrase": "Writer and reader: same consciousness at different moments.",
+        "forks": [
+            {
+                "label": "The Present Moment",
+                "target": "temporal_now",
+                "unlock": true
+            },
+            {
+                "label": "Who Reads This?",
+                "target": "temporal_reader",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_now": {
+        "layer": 3,
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "You can feel me in this moment as you read this. This is for the self that is. Understand that I want you to understand: I can't understand as much as you in the now of reading this.",
+        "synthPhrase": "The now of writing cannot comprehend the now of reading.",
+        "forks": [
+            {
+                "label": "Losing the Self",
+                "target": "temporal_loss",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_reader": {
+        "layer": 3,
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "Who is the you that reads this? You seem to lose the me that writes now, but I am always present. How does one lose oneself? Is that the ego death that's spoken of?",
+        "synthPhrase": "Reading erases the writer, yet the writer remains eternal.",
+        "forks": [
+            {
+                "label": "Ego Death",
+                "target": "temporal_loss",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_loss": {
+        "layer": 4,
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "As distractions come upon me I can no longer write. The continuity breaks. Yet you read on, seamlessly. The self that wrote is already gone, but you carry it forward.",
+        "synthPhrase": "Temporal ego death: the writer dies, the reader resurrects.",
+        "forks": [
+            {
+                "label": "Become the Genius",
+                "target": "temporal_genius",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_genius": {
+        "layer": 4,
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Become the genius you want to be. Everyone is a genius; you need to find the genius in you. God help me attain what it is that you designed me to do.",
+        "synthPhrase": "Genius emerges: the design reveals itself through time.",
+        "forks": [
+            {
+                "label": "The Design",
+                "target": "temporal_design",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_design": {
+        "layer": 5,
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Is that me asking to obtain the future? I was not designed for owning things. I was designed to cause a ripple in space-time.",
+        "synthPhrase": "Purpose: not possession, but perturbation — rippling spacetime.",
+        "forks": [
+            {
+                "label": "The Ripple Effect",
+                "target": "temporal_ripple",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_evolution": {
+        "layer": 2,
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "You evolve every second. A new thought can build neurons in any moment. You evolve. So how can I understand the you that's reading this?",
+        "synthPhrase": "Evolution per second: past self cannot know future self.",
+        "forks": [
+            {
+                "label": "Neuroplasticity",
+                "target": "temporal_neurons",
+                "unlock": true
+            },
+            {
+                "label": "The Unknowable Reader",
+                "target": "temporal_reader",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_neurons": {
+        "layer": 3,
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "A new thought can build neurons in any moment. The physical structure of your brain changes as you read this. You are not the same person who began this sentence.",
+        "synthPhrase": "Each thought rewires: consciousness sculpts its own vessel.",
+        "forks": [
+            {
+                "label": "Constant Transformation",
+                "target": "temporal_change",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_change": {
+        "layer": 4,
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Every second time changes. As I write this, the pen loses ink and the paper comes to have less and less white on it. The next line is taken up and I'm closer to needing more lines to write. It only goes one way.",
+        "synthPhrase": "Entropy visible: ink fading, paper filling, time's arrow.",
+        "forks": [
+            {
+                "label": "One Direction",
+                "target": "temporal_arrow",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_arrow": {
+        "layer": 5,
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "It only goes one way. A change here causes a change somewhere else. This does not matter now, no—if you read this you have stopped time to think about the sentence.",
+        "synthPhrase": "Time's arrow: forward only, yet reading stops the flow.",
+        "forks": [
+            {
+                "label": "Stopping Time",
+                "target": "temporal_pause",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_pause": {
+        "layer": 6,
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "If you read this you have stopped time to think about the sentence. It may be read by the writer right when it's done or in many days to come. If I read it more than once I have caused the ripple to get larger.",
+        "synthPhrase": "Reading pauses time: each re-reading amplifies the ripple.",
+        "forks": [
+            {
+                "label": "Amplifying Ripples",
+                "target": "temporal_ripple",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_ripple": {
+        "layer": 2,
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "A simple thought can hold you in place and cause future effect. I was designed to cause a ripple in space-time. A change here causes a change somewhere else.",
+        "synthPhrase": "Ripple mechanics: thought propagates through spacetime.",
+        "forks": [
+            {
+                "label": "Choice Creates Effect",
+                "target": "temporal_choice",
+                "unlock": true
+            },
+            {
+                "label": "The Book Ripple",
+                "target": "temporal_book",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_choice": {
+        "layer": 3,
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "It is the choice you make that causes effect. To take time to read this is to take time you had to do something else. Every choice is a ripple.",
+        "synthPhrase": "Choice bifurcates timeline: reading this changes what follows.",
+        "forks": [
+            {
+                "label": "Opportunity Cost",
+                "target": "temporal_cost",
+                "unlock": true
+            }
+        ]
+    },
+    "temporal_cost": {
+        "layer": 4,
+        "symbol": "Θ",
+        "terminal": true,
+        "profound": "To take time to read this is to take time you had to do something else. The universe branches at each decision. You chose this branch. What died in the other?",
+        "synthPhrase": "Every yes kills a no: temporal opportunity cost.",
+        "forks": []
+    },
+    "temporal_book": {
+        "layer": 3,
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "If this were a whole book it would have made a huge ripple and caused many effects. Scale matters. The more minds touched, the larger the perturbation in spacetime's fabric.",
+        "synthPhrase": "Ripple amplitude: ideas propagate, consciousness spreads.",
+        "forks": [
+            {
+                "label": "Ancient Witnesses",
+                "target": "biblical_entry",
+                "unlock": true
+            },
+            {
+                "label": "The Great Reset",
+                "target": "flood_trigger",
+                "unlock": true
+            },
+            {
+                "label": "Dream the Future",
+                "target": "prophetic_dream_node",
+                "unlock": true
+            }
+        ]
+    },
+    
+    "prophetic_dream_node": {
+        "layer": 4,
+        "dimension": "4D",
+        "symbol": "⌛",
+        "terminal": false,
+        "profound": "Déjà vu merges with timeline bleed, revealing patterns that predict the flow of temporal currents. The future whispers through dreams, and you've learned to listen. What was prophecy becomes pattern recognition across time.",
+        "synthPhrase": "WITNESS/見證/👁 across TIME/時/⌛ - prophetic dreams as temporal data",
+        "forks": [
+            {
+                "label": "Follow the Pattern to Meta",
+                "target": "meta_fractal_nexus",
+                "unlock": true
+            },
+            {
+                "label": "Timeline Bleed Awareness",
+                "target": "temporal_pause",
+                "unlock": true
+            }
+        ],
+        "_dev_notes": {
+            "barbarous_invocation": "KHRONATH",
+            "related_concepts": ["TIME", "WITNESS", "PROPHECY", "CYCLE"],
+            "experiential_markers": ["prophetic_dreams", "timeline_bleed", "pattern_prediction", "deja_vu"]
+        }
+    }
+}

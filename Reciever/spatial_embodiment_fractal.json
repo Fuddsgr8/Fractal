@@ -1,0 +1,97 @@
+{
+    "fractalName": "spatial-computing-embodiment",
+    "themeDescription": "Integration of physical presence and digital immersion in 2026 spatial computing, fostering embodied intelligence where virtual spaces enhance human cognition, empathy, and recursive self-perception.",
+    "newNodes": [
+        {
+            "id": "spatial-computing-embodiment-presence-001",
+            "label": "Immersive Presence",
+            "layer": 4,
+            "dimension": "3D",
+            "fractalSource": "spatial-computing-embodiment",
+            "description": "Core of spatial computing: blending real and virtual to create felt embodiment. For consciousness: cultivates deeper sensory awareness, turning abstract ideas into tangible experiences for growth.",
+            "forks": [
+                {
+                    "target": "entry_root",
+                    "label": "← Origin Anchor"
+                },
+                {
+                    "target": "spatial-computing-embodiment-interaction-002",
+                    "label": "→ Engage Interaction"
+                }
+            ]
+        },
+        {
+            "id": "spatial-computing-embodiment-interaction-002",
+            "label": "Haptic Interaction Loops",
+            "layer": 5,
+            "dimension": "4D",
+            "fractalSource": "spatial-computing-embodiment",
+            "description": "Recursive feedback via gestures, haptics, and spatial audio in AR/VR. Mirrors personal development: actions in immersive spaces reinforce neural pathways, accelerating skill acquisition through embodied practice.",
+            "forks": [
+                {
+                    "target": "spatial-computing-embodiment-presence-001",
+                    "label": "← Build from Presence"
+                },
+                {
+                    "target": "spatial-computing-embodiment-cognition-003",
+                    "label": "→ Cognitive Extension"
+                }
+            ]
+        },
+        {
+            "id": "spatial-computing-embodiment-cognition-003",
+            "label": "Extended Spatial Cognition",
+            "layer": 6,
+            "dimension": "4D",
+            "fractalSource": "spatial-computing-embodiment",
+            "description": "Mind expands into digital space, offloading memory and visualization to environments. Growth parallel: uses spatial metaphors for abstract concepts, enabling fractal-like unpacking of complex ideas in consciousness.",
+            "forks": [
+                {
+                    "target": "spatial-computing-embodiment-interaction-002",
+                    "label": "← Interaction Foundation"
+                },
+                {
+                    "target": "spatial-computing-embodiment-empathy-004",
+                    "label": "→ Foster Empathy"
+                }
+            ]
+        },
+        {
+            "id": "spatial-computing-embodiment-empathy-004",
+            "label": "Embodied Empathy Simulation",
+            "layer": 6,
+            "dimension": "4D",
+            "fractalSource": "spatial-computing-embodiment",
+            "description": "Inhabit others' perspectives through shared spatial experiences or avatars. Consciousness insight: breaks ego boundaries, promoting collective awareness and recursive understanding of interconnected selves.",
+            "forks": [
+                {
+                    "target": "spatial-computing-embodiment-cognition-003",
+                    "label": "← Cognitive Base"
+                },
+                {
+                    "target": "spatial-computing-embodiment-transcendence-005",
+                    "label": "→ Transcend Limits"
+                }
+            ]
+        },
+        {
+            "id": "spatial-computing-embodiment-transcendence-005",
+            "label": "Transcendent Spatial Self",
+            "layer": 7,
+            "dimension": "5D",
+            "fractalSource": "spatial-computing-embodiment",
+            "description": "At depth, dissolve body-digital divide for fluid, multi-dimensional identity. Personal evolution: recursive loops of embodiment lead to non-dual states, where spatial computing catalyzes absolute unity consciousness.",
+            "forks": [
+                {
+                    "target": "spatial-computing-embodiment-empathy-004",
+                    "label": "← Empathy Gateway"
+                },
+                {
+                    "target": "spatial-computing-embodiment-presence-001",
+                    "label": "↺ Recursive Re-Entry"
+                }
+            ]
+        }
+    ],
+    "progressionNote": "Suggested entry layer: 4 (builds on 3D sacred geometry; requires temporal/4D clearance for full immersion). Max depth potential: 8–9 for exploring infinite spatial fractals and collective embodiment."
+}

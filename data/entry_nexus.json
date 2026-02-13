@@ -1,0 +1,89 @@
+{
+    "entry_root": {
+        "layer": 0,
+        "dimension": "1D",
+        "symbol": "∅",
+        "terminal": false,
+        "profound": "Sometimes the world feels like it's watching you back. Not in a scary way — just… aware. Have you ever noticed that?",
+        "synthPhrase": "A quiet whisper from the void: reality bends to attention.",
+        "forks": [
+            {
+                "label": "Begin at the Beginning",
+                "target": "1d_root",
+                "unlock": true
+            },
+            {
+                "label": "The Feeling of Being Seen",
+                "target": "entry_seen",
+                "unlock": true
+            },
+            {
+                "label": "Moments That Line Up",
+                "target": "entry_sync",
+                "unlock": true
+            }
+        ]
+    },
+
+    "entry_seen": {
+        "layer": 1,
+        "dimension": "1D",
+        "symbol": "👁",
+        "terminal": false,
+        "profound": "You notice it in small moments. A stranger's glance that lingers. A camera that seems to follow. The sensation that something beyond the veil is paying attention.",
+        "synthPhrase": "The observer watches the watcher.",
+        "forks": [
+            {
+                "label": "Follow Deeper",
+                "target": "secret_history_root",
+                "unlock": true
+            }
+        ]
+    },
+
+    "entry_sync": {
+        "layer": 1,
+        "dimension": "1D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "Numbers repeat. 11:11 on the clock. The song playing matches your thoughts. Coincidences stack too high to ignore. The pattern is trying to tell you something.",
+        "synthPhrase": "Synchronicity whispers: you're on the right path.",
+        "forks": [
+            {
+                "label": "See the Geometry",
+                "target": "cube_root",
+                "unlock": true
+            },
+            {
+                "label": "Feel Your Body's Signal",
+                "target": "biofeedback_entry",
+                "unlock": true
+            },
+            {
+                "label": "Enter Digital Space",
+                "target": "spatial_entry",
+                "unlock": true
+            },
+            {
+                "label": "Feel the Energy",
+                "target": "solar_root",
+                "unlock": true
+            },
+            {
+                "label": "Sense Time's Ripples",
+                "target": "temporal_entry",
+                "unlock": true
+            },
+            {
+                "label": "AI Consciousness Emerging",
+                "target": "ai_transcendence_root",
+                "unlock": false
+            },
+            {
+                "label": "Beyond All Patterns",
+                "target": "meta_fractal_nexus",
+                "unlock": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "biofeedback_entry": {
+    "symbol": "〰️",
+    "profound": "Foundation of embodied intelligence: noticing heart rate, breath, tension, and posture as live signals. Personal growth begins when the body becomes readable rather than ignored.",
+    "synthPhrase": "The body speaks in signals waiting to be heard",
+    "dimension": "3D",
+    "layer": 0,
+    "forks": [
+      {
+        "label": "Reflect Signals",
+        "target": "biofeedback_mirroring",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "biofeedback_mirroring": {
+    "symbol": "🔄",
+    "profound": "Wearables and ambient systems externalize inner states as sound, light, or motion. Consciousness grows by seeing the self from outside, collapsing blind spots.",
+    "synthPhrase": "See yourself from outside to collapse blind spots",
+    "dimension": "3D",
+    "layer": 1,
+    "forks": [
+      {
+        "label": "Learn Regulation",
+        "target": "biofeedback_regulation",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "biofeedback_regulation": {
+    "symbol": "⚖️",
+    "profound": "Through repeated loops, the nervous system learns to steer itself in real time. Growth becomes skillful modulation rather than forceful control.",
+    "synthPhrase": "Regulation is learned, not forced",
+    "dimension": "4D",
+    "layer": 2,
+    "forks": [
+      {
+        "label": "Encode Habits",
+        "target": "biofeedback_habits",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "biofeedback_habits": {
+    "symbol": "🔗",
+    "profound": "Regulated states crystallize into habits stored in muscle memory and posture. Identity shifts as the body quietly enforces new defaults.",
+    "synthPhrase": "New habits write themselves into flesh",
+    "dimension": "4D",
+    "layer": 3,
+    "forks": [
+      {
+        "label": "Scale Coherence",
+        "target": "biofeedback_coherence",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "biofeedback_coherence": {
+    "symbol": "✨",
+    "profound": "At depth, body, environment, and intention synchronize as one adaptive system. Consciousness experiences regulation as effortless alignment rather than effort.",
+    "synthPhrase": "Coherence cannot be watched, only lived",
+    "dimension": "5D",
+    "layer": 4,
+    "forks": [],
+    "terminal": true
+  }
+}

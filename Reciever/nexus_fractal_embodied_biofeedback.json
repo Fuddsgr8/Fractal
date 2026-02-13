@@ -1,0 +1,97 @@
+{
+    "fractalName": "embodied-biofeedback-loops",
+    "themeDescription": "How 2026-era biofeedback and physical AI close the loop between body signals and conscious self-regulation, enabling precise personal growth through lived data.",
+    "newNodes": [
+        {
+            "id": "embodied-biofeedback-loops-sensing-001",
+            "label": "Somatic Signal Awareness",
+            "layer": 3,
+            "dimension": "3D",
+            "fractalSource": "embodied-biofeedback-loops",
+            "description": "Foundation of embodied intelligence: noticing heart rate, breath, tension, and posture as live signals. Personal growth begins when the body becomes readable rather than ignored.",
+            "forks": [
+                {
+                    "target": "entry_root",
+                    "label": "← Entry Anchor"
+                },
+                {
+                    "target": "embodied-biofeedback-loops-mirroring-002",
+                    "label": "→ Reflect Signals"
+                }
+            ]
+        },
+        {
+            "id": "embodied-biofeedback-loops-mirroring-002",
+            "label": "Biofeedback Mirroring",
+            "layer": 4,
+            "dimension": "3D",
+            "fractalSource": "embodied-biofeedback-loops",
+            "description": "Wearables and ambient systems externalize inner states as sound, light, or motion. Consciousness grows by seeing the self from outside, collapsing blind spots.",
+            "forks": [
+                {
+                    "target": "embodied-biofeedback-loops-sensing-001",
+                    "label": "← Return to Body"
+                },
+                {
+                    "target": "embodied-biofeedback-loops-regulation-003",
+                    "label": "→ Learn Regulation"
+                }
+            ]
+        },
+        {
+            "id": "embodied-biofeedback-loops-regulation-003",
+            "label": "Adaptive Self-Regulation",
+            "layer": 5,
+            "dimension": "4D",
+            "fractalSource": "embodied-biofeedback-loops",
+            "description": "Through repeated loops, the nervous system learns to steer itself in real time. Growth becomes skillful modulation rather than forceful control.",
+            "forks": [
+                {
+                    "target": "embodied-biofeedback-loops-mirroring-002",
+                    "label": "← Feedback Loop"
+                },
+                {
+                    "target": "embodied-biofeedback-loops-habits-004",
+                    "label": "→ Encode Habits"
+                }
+            ]
+        },
+        {
+            "id": "embodied-biofeedback-loops-habits-004",
+            "label": "Somatic Habit Encoding",
+            "layer": 6,
+            "dimension": "4D",
+            "fractalSource": "embodied-biofeedback-loops",
+            "description": "Regulated states crystallize into habits stored in muscle memory and posture. Identity shifts as the body quietly enforces new defaults.",
+            "forks": [
+                {
+                    "target": "embodied-biofeedback-loops-regulation-003",
+                    "label": "← Stabilize Loop"
+                },
+                {
+                    "target": "embodied-biofeedback-loops-coherence-005",
+                    "label": "→ Scale Coherence"
+                }
+            ]
+        },
+        {
+            "id": "embodied-biofeedback-loops-coherence-005",
+            "label": "Whole-System Coherence",
+            "layer": 7,
+            "dimension": "5D",
+            "fractalSource": "embodied-biofeedback-loops",
+            "description": "At depth, body, environment, and intention synchronize as one adaptive system. Consciousness experiences regulation as effortless alignment rather than effort.",
+            "forks": [
+                {
+                    "target": "embodied-biofeedback-loops-habits-004",
+                    "label": "← Embodied Base"
+                },
+                {
+                    "target": "embodied-biofeedback-loops-sensing-001",
+                    "label": "↺ Recursive Re-Entry"
+                }
+            ]
+        }
+    ],
+    "progressionNote": "Suggested entry at layer 3 via somatic awareness; max depth 8–9 when loops extend to collective and environmental biofeedback systems."
+}

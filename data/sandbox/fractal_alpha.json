@@ -1,0 +1,18 @@
+{
+    "system_info": { /* keep whatever is here */ },
+    "dimensions": {
+        "1D": {
+            "id": 1,
+            "name": "Test 1D",
+            "layers": {
+                "Layer1": {
+                    "id": 1,
+                    "name": "Alpha Layer",
+                    "file": "sandbox/fractal_alpha.json", // ← Add "sandbox/" here
+                    "status": "unlocked"
+                }
+            }
+        }
+        // Add "2D" and "3D" similarly if you have beta/gamma
+    }
+}

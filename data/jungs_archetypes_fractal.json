@@ -1,0 +1,388 @@
+{
+    "jungian_archetypes_root": {
+        "layer": 2,
+        "dimension": "7D",
+        "symbol": "Ψ∞",
+        "terminal": false,
+        "profound": "The collective unconscious manifests through universal archetypes — primordial images and instinctual patterns that structure psyche across cultures and time. Jung saw them as autonomous psychic entities, bridges between personal unconscious and transpersonal Self.",
+        "synthPhrase": "Archetypes are the gods within — eternal forms the psyche wears to know itself.",
+        "forks": [
+            {
+                "label": "Persona – The Social Mask",
+                "target": "archetype_persona"
+            },
+            {
+                "label": "Shadow – The Repressed Dark",
+                "target": "archetype_shadow"
+            },
+            {
+                "label": "Anima / Animus – Contra-Sexual Soul",
+                "target": "archetype_anima_animus"
+            },
+            {
+                "label": "Self – The Central Archetype",
+                "target": "archetype_self"
+            },
+            {
+                "label": "Individuation Process (Alchemical Parallel)",
+                "target": "archetype_individuation"
+            },
+            {
+                "label": "Synchronicity & Archetypal Field",
+                "target": "archetype_synchronicity"
+            }
+        ]
+    },
+
+    "archetype_persona": {
+        "layer": 3,
+        "dimension": "7D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "The face we show the world — social adaptation, roles, masks. Necessary for functioning, but over-identification leads to loss of authenticity.",
+        "synthPhrase": "Persona shields the ego; integration reveals the face behind the mask.",
+        "forks": [
+            {
+                "label": "Over-Identification (False Self)",
+                "target": "persona_false"
+            },
+            {
+                "label": "Withdrawal & Authenticity Crisis",
+                "target": "persona_crisis"
+            }
+        ]
+    },
+
+    "archetype_shadow": {
+        "layer": 3,
+        "dimension": "7D",
+        "symbol": "🜂",
+        "terminal": false,
+        "profound": "The hidden, repressed, inferior, or 'evil' aspects of personality — everything the ego denies. Confrontation is the first step of individuation.",
+        "synthPhrase": "Shadow is not to be destroyed but embraced; it carries gold in the dark.",
+        "forks": [
+            {
+                "label": "Projection (Seeing Own Shadow in Others)",
+                "target": "shadow_projection"
+            },
+            {
+                "label": "Integration (Owning the Dark)",
+                "target": "shadow_integration"
+            },
+            {
+                "label": "Shadow Possession (Inflation / Acting Out)",
+                "target": "shadow_possession"
+            }
+        ]
+    },
+
+    "archetype_anima_animus": {
+        "layer": 4,
+        "dimension": "7D",
+        "symbol": "Ω",
+        "terminal": false,
+        "profound": "Contra-sexual archetype — anima (man's inner woman), animus (woman's inner man). Bridge to unconscious, source of creativity and relational patterns.",
+        "synthPhrase": "Anima/animus mediate between ego and Self; possession leads to moodiness, integration yields wholeness.",
+        "forks": [
+            {
+                "label": "Anima Possession (Mood / Fantasy)",
+                "target": "anima_possession"
+            },
+            {
+                "label": "Animus Possession (Opinionated Rigidity)",
+                "target": "animus_possession"
+            },
+            {
+                "label": "Coniunctio (Sacred Marriage)",
+                "target": "anima_animus_coniunctio"
+            }
+        ]
+    },
+
+    "archetype_self": {
+        "layer": 5,
+        "dimension": "7D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The central archetype of wholeness — totality of psyche, union of conscious and unconscious. Mandala symbol, philosopher's stone equivalent.",
+        "synthPhrase": "Self is the god-image within; individuation is becoming who you already are.",
+        "forks": [
+            {
+                "label": "Mandala Symbolism (Order out of Chaos)",
+                "target": "self_mandala"
+            },
+            {
+                "label": "Inflation (Ego Identifying with Self)",
+                "target": "self_inflation"
+            },
+            {
+                "label": "Realization (Transcendent Function)",
+                "target": "self_realization"
+            }
+        ]
+    },
+
+    "archetype_individuation": {
+        "layer": 4,
+        "dimension": "7D",
+        "symbol": "🜄∞",
+        "terminal": false,
+        "profound": "The lifelong process of becoming whole — confronting shadow, integrating anima/animus, realizing Self. Parallels alchemical Great Work.",
+        "synthPhrase": "Individuation is the alchemical opus of the soul — from nigredo chaos to rubedo wholeness.",
+        "forks": [
+            {
+                "label": "Nigredo (Shadow Confrontation)",
+                "target": "individuation_nigredo"
+            },
+            {
+                "label": "Albedo (Purification)",
+                "target": "individuation_albedo"
+            },
+            {
+                "label": "Citrinitas (Illumination)",
+                "target": "individuation_citrinitas"
+            },
+            {
+                "label": "Rubedo (Unification)",
+                "target": "individuation_rubedo"
+            }
+        ]
+    },
+
+    "archetype_synchronicity": {
+        "layer": 5,
+        "dimension": "7D",
+        "symbol": "Ψ🜂",
+        "terminal": false,
+        "profound": "Meaningful coincidences — acausal connecting principle linking psyche and matter. Archetypes activate in the unus mundus (unitary reality).",
+        "synthPhrase": "Synchronicity is the universe winking — psyche and world are one.",
+        "forks": [
+            {
+                "label": "Archetypal Activation",
+                "target": "synch_activation"
+            },
+            {
+                "label": "Meaningful Coincidence vs. Causality",
+                "target": "synch_vs_causality"
+            }
+        ]
+    },
+
+    "persona_false": {
+        "layer": 4,
+        "dimension": "7D",
+        "symbol": "🎭",
+        "terminal": true,
+        "profound": "Over-identification with persona creates false self — living entirely through roles, masks, expectations. Authenticity dies; the soul suffocates beneath performance.",
+        "synthPhrase": "The mask becomes the man; the actor forgets the play.",
+        "forks": []
+    },
+
+    "persona_crisis": {
+        "layer": 4,
+        "dimension": "7D",
+        "symbol": "⚡",
+        "terminal": true,
+        "profound": "Withdrawal of persona leads to authenticity crisis — 'Who am I without my roles?' Necessary breakdown before reconstruction.",
+        "synthPhrase": "The mask cracks; truth bleeds through.",
+        "forks": []
+    },
+
+    "shadow_projection": {
+        "layer": 4,
+        "dimension": "7D",
+        "symbol": "🪞",
+        "terminal": false,
+        "profound": "What infuriates you in others is what you refuse to see in yourself. Projection is the shadow's primary mechanism — externalizing the denied self onto convenient screens. Every enemy is a mirror.",
+        "synthPhrase": "The enemy is your own face reflected in another's skin.",
+        "forks": [
+            {
+                "label": "Withdraw the Projection",
+                "target": "shadow_integration"
+            }
+        ]
+    },
+
+    "shadow_integration": {
+        "layer": 5,
+        "dimension": "7D",
+        "symbol": "☉🜂",
+        "terminal": false,
+        "profound": "To integrate the shadow is to own what you denied — rage, lust, cowardice, power hunger. Not to act it out, but to acknowledge it lives in you. The gold in the shadow is the energy you spent keeping it hidden. Reclaim it.",
+        "synthPhrase": "Own the darkness; reclaim the energy of denial.",
+        "pathType": "convergence",
+        "forks": [
+            {
+                "label": "Toward Wholeness",
+                "target": "self_realization"
+            }
+        ]
+    },
+
+    "shadow_possession": {
+        "layer": 4,
+        "dimension": "7D",
+        "symbol": "🜂⚡",
+        "terminal": true,
+        "profound": "When the shadow possesses the ego, the person acts out what they most despise. Inflation, rage, cruelty — all signs the unconscious has seized the wheel. The possessed person is the last to know.",
+        "synthPhrase": "The shadow drives; the ego sleeps at the wheel.",
+        "forks": []
+    },
+
+    "anima_possession": {
+        "layer": 5,
+        "dimension": "7D",
+        "symbol": "🌙",
+        "terminal": true,
+        "profound": "Anima possession in a man: irrational moodiness, sentimentality, passive-aggression, idealization of women followed by bitter disappointment. The inner feminine runs wild when unacknowledged.",
+        "synthPhrase": "Moods rule when the inner feminine is denied her voice.",
+        "forks": []
+    },
+
+    "animus_possession": {
+        "layer": 5,
+        "dimension": "7D",
+        "symbol": "⚔",
+        "terminal": true,
+        "profound": "Animus possession in a woman: rigid opinions, argumentative certainty, cold logic divorced from feeling. The inner masculine hardens when unintegrated.",
+        "synthPhrase": "Opinions calcify when the inner masculine goes unmet.",
+        "forks": []
+    },
+
+    "anima_animus_coniunctio": {
+        "layer": 6,
+        "dimension": "7D",
+        "symbol": "☉🌙",
+        "terminal": false,
+        "profound": "The sacred marriage — hieros gamos. Masculine and feminine principles unite within one psyche. Not balance but fusion. The alchemical wedding produces the philosopher's child: wholeness beyond gender.",
+        "synthPhrase": "Inner marriage: sun and moon merge in the crucible of self.",
+        "forks": [
+            {
+                "label": "The Philosopher's Child",
+                "target": "self_realization"
+            }
+        ]
+    },
+
+    "self_mandala": {
+        "layer": 6,
+        "dimension": "7D",
+        "symbol": "◯",
+        "terminal": true,
+        "profound": "The mandala appears spontaneously in dreams, art, and visions when the psyche seeks order from chaos. Circular symmetry — the Self's signature. Jung drew mandalas daily during his darkest periods. They were maps of inner cosmos.",
+        "synthPhrase": "The circle draws itself: order emerging from psychic chaos.",
+        "forks": []
+    },
+
+    "self_inflation": {
+        "layer": 6,
+        "dimension": "7D",
+        "symbol": "⚠☉",
+        "terminal": true,
+        "profound": "When the ego identifies with the Self, inflation results — grandiosity, messianic delusion, god-complex. The ego is not the Self; it is a servant of the Self. Confusing the two is the most dangerous mistake on the path.",
+        "synthPhrase": "The servant mistakes itself for the king; madness follows.",
+        "forks": []
+    },
+
+    "self_realization": {
+        "layer": 7,
+        "dimension": "7D",
+        "symbol": "☉∞",
+        "terminal": false,
+        "profound": "The transcendent function bridges conscious and unconscious, producing symbols that unite opposites. Self-realization is not perfection but completeness — holding all contradictions without splitting. You become who you already were.",
+        "synthPhrase": "Wholeness achieved: not perfection, but the embrace of all that is.",
+        "pathType": "convergence",
+        "forks": [
+            {
+                "label": "⟿ Meta-Fractal Nexus",
+                "target": "meta_fractal_nexus"
+            }
+        ]
+    },
+
+    "individuation_nigredo": {
+        "layer": 5,
+        "dimension": "7D",
+        "symbol": "⚫",
+        "terminal": false,
+        "profound": "Nigredo — the blackening. Putrefaction of the old self. Depression, dissolution, dark night of the soul. Everything you thought you were must die. The prima materia is revealed in its raw, terrible form.",
+        "synthPhrase": "First: everything rots. The old self must die completely.",
+        "forks": [
+            {
+                "label": "Into Purification",
+                "target": "individuation_albedo"
+            }
+        ]
+    },
+
+    "individuation_albedo": {
+        "layer": 5,
+        "dimension": "7D",
+        "symbol": "⚪",
+        "terminal": false,
+        "profound": "Albedo — the whitening. Purification through reflection. The dead matter washes clean. Insight emerges from the darkness. The lunar consciousness awakens — receptive, reflective, silver.",
+        "synthPhrase": "Cleansing: insight washes the charred remains.",
+        "forks": [
+            {
+                "label": "Toward Illumination",
+                "target": "individuation_citrinitas"
+            }
+        ]
+    },
+
+    "individuation_citrinitas": {
+        "layer": 6,
+        "dimension": "7D",
+        "symbol": "🟡",
+        "terminal": false,
+        "profound": "Citrinitas — the yellowing. Solar dawn. Wisdom begins to crystallize. The purified material catches light. Understanding deepens beyond intellectual knowledge into embodied knowing.",
+        "synthPhrase": "Dawn breaks: wisdom crystallizes from purified matter.",
+        "forks": [
+            {
+                "label": "The Final Unification",
+                "target": "individuation_rubedo"
+            }
+        ]
+    },
+
+    "individuation_rubedo": {
+        "layer": 7,
+        "dimension": "7D",
+        "symbol": "🔴☉",
+        "terminal": false,
+        "profound": "Rubedo — the reddening. The philosopher's stone achieved. Conscious and unconscious fully integrated. The Self realized. Blood-red sun of total awareness. Not the end of the journey — the beginning of living it.",
+        "synthPhrase": "The stone is made: consciousness fully embodied, fully awake.",
+        "pathType": "convergence",
+        "forks": [
+            {
+                "label": "⟿ Meta-Fractal Nexus",
+                "target": "meta_fractal_nexus"
+            }
+        ]
+    },
+
+    "synch_activation": {
+        "layer": 6,
+        "dimension": "7D",
+        "symbol": "⚡∞",
+        "terminal": false,
+        "profound": "Archetypes activate synchronistic fields. When an archetype constellation becomes active — hero, trickster, death/rebirth — outer events begin to mirror inner states. The world conspires with the psyche.",
+        "synthPhrase": "When the inner pattern activates, the outer world responds.",
+        "forks": [
+            {
+                "label": "The Unus Mundus",
+                "target": "self_realization"
+            }
+        ]
+    },
+
+    "synch_vs_causality": {
+        "layer": 6,
+        "dimension": "7D",
+        "symbol": "Ψ⚡",
+        "terminal": true,
+        "profound": "Synchronicity is not causation. It is meaning without mechanism. Two events connect through significance, not force. Jung and Pauli saw this as evidence that psyche and matter share a common substrate — the unus mundus, one world beneath the apparent two.",
+        "synthPhrase": "Meaning connects what causality cannot: psyche and matter are one.",
+        "forks": []
+    }
+}

@@ -1,0 +1,992 @@
+{
+    "cube_root": {
+        "layer": 1,
+        "dimension": "3D",
+        "symbol": "□",
+        "terminal": false,
+        "profound": "Six faces. Eight corners. Twelve edges. The cube — everywhere you look, once you start seeing it. From the smallest crystal to the largest monument, geometry whispers a pattern.",
+        "synthPhrase": "The cube emerges: foundation of form, prison of time, gateway beyond.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "The Shape Itself",
+                "target": "cube_geometry"
+            },
+            {
+                "label": "Hidden in Plain Sight",
+                "target": "cube_everywhere"
+            },
+            {
+                "label": "Sacred Forms",
+                "target": "cube_sacred"
+            }
+        ]
+    },
+
+    "cube_geometry": {
+        "layer": 2,
+        "dimension": "3D",
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "Perfect geometry: the cube is one of only five Platonic solids — forms so fundamental, they build reality itself. Square becomes cube. Two dimensions birth three.",
+        "synthPhrase": "From plane to volume: the first leap into solid form.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Platonic Perfection",
+                "target": "cube_platonic"
+            },
+            {
+                "label": "Physical Foundation",
+                "target": "cube_physical"
+            }
+        ]
+    },
+
+    "cube_platonic": {
+        "layer": 3,
+        "dimension": "3D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "One of five perfect forms. Tetrahedron, cube, octahedron, dodecahedron, icosahedron — the building blocks Plato claimed construct the cosmos. Earth element = cube. Stability. Foundation. Ground.",
+        "synthPhrase": "Earth crystallized: the cube holds matter in place.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Earth Element",
+                "target": "cube_earth"
+            },
+            {
+                "label": "Crystalline Structure",
+                "target": "cube_crystal"
+            }
+        ]
+    },
+
+    "cube_earth": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Ancient wisdom: Earth takes cubic form. Stable. Grounded. Unmoving. While fire rises as tetrahedron and water flows as icosahedron, earth remains — solid, square, contained.",
+        "synthPhrase": "The element crystallized into corner and edge.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Stability Pattern",
+                "target": "cube_stability"
+            }
+        ]
+    },
+
+    "cube_crystal": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Salt crystals. Pyrite. Galena. Fluorite. Nature itself builds cubes at the atomic level — the most efficient packing, the strongest lattice. Geometry IS matter.",
+        "synthPhrase": "Matter chooses the cube: minimum energy, maximum stability.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Atomic Lattice",
+                "target": "cube_atomic"
+            },
+            {
+                "label": "Natural Cubes",
+                "target": "cube_natural"
+            }
+        ]
+    },
+
+    "cube_stability": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": true,
+        "profound": "The cube resists. Equal forces on all sides — perfect balance, perfect prison. Stability becomes stagnation. The pattern holds too well."
+    },
+
+    "cube_atomic": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "At the smallest scale — atoms arrange in cubic close-packing. Face-centered, body-centered, simple cubic lattices. The invisible architecture of solid reality.",
+        "synthPhrase": "Atoms dance in cubic formation: reality's source code.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Reality's Grid",
+                "target": "cube_grid"
+            }
+        ]
+    },
+
+    "cube_natural": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": true,
+        "profound": "Nature knows the cube: salt from the sea, crystals from the earth, ice forming perfect edges. The pattern emerges without instruction."
+    },
+
+    "cube_grid": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "The material world is a cubic grid — particles locked in position, space quantized, time flowing through geometric constraint. The matrix has a shape.",
+        "synthPhrase": "Grid revealed: space itself crystallized into cubic cells.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "The Matrix Structure",
+                "target": "cube_matrix"
+            }
+        ]
+    },
+
+    "cube_physical": {
+        "layer": 3,
+        "dimension": "3D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "Blocks. Boxes. Buildings. Bricks. Human civilization builds in cubes — right angles, stacking, efficiency. We shape our world in the image of this geometry.",
+        "synthPhrase": "Humanity mirrors the pattern: cubes upon cubes upon cubes.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Architecture of Control",
+                "target": "cube_architecture"
+            }
+        ]
+    },
+
+    "cube_architecture": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": true,
+        "profound": "Cities are cubic grids. Rooms are cubes. We live inside boxes, work inside boxes, think inside boxes. The geometry shapes consciousness itself."
+    },
+
+    "cube_everywhere": {
+        "layer": 2,
+        "dimension": "3D",
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "Once you see it, you can't unsee it. The cube is everywhere — dice in your hand, sugar in your coffee, buildings scraping sky. Mundane miracle, hiding in plain sight.",
+        "synthPhrase": "Eyes open: the cube was always there.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Daily Cubes",
+                "target": "cube_daily"
+            },
+            {
+                "label": "Corporate Cubes",
+                "target": "cube_corporate"
+            }
+        ]
+    },
+
+    "cube_daily": {
+        "layer": 3,
+        "dimension": "3D",
+        "symbol": "Ψ",
+        "terminal": true,
+        "profound": "Dice. Ice. Rubik's cube. Sugar cubes. Bouillon cubes. Storage cubes. The pattern infiltrates the mundane — we handle cubes without thought."
+    },
+
+    "cube_corporate": {
+        "layer": 3,
+        "dimension": "3D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "Corporate logos: cubes everywhere. Tech companies, financial institutions, government agencies. The cube signals structure, control, authority. Why this shape?",
+        "synthPhrase": "Power chooses the cube: containment dressed as clarity.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Symbols of Control",
+                "target": "cube_control_symbol"
+            }
+        ]
+    },
+
+    "cube_control_symbol": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Black cubes on judge's robes. Cubic pedestals for monuments. Shipping containers stacked in cubic grids. The cube organizes, contains, controls. Efficiency becomes imprisonment.",
+        "synthPhrase": "The shape of authority: cubes contain and constrain.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Hidden Meaning",
+                "target": "cube_occult_intro"
+            }
+        ]
+    },
+
+    "cube_sacred": {
+        "layer": 2,
+        "dimension": "3D",
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "The sacred reveals itself in cubes. From Mecca to Saturn, from crosses to hexagons — geometry becomes theology, physics becomes metaphysics.",
+        "synthPhrase": "Sacred geometry whispers: the cube holds divine secrets.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Saturn's Hexagon",
+                "target": "cube_saturn"
+            },
+            {
+                "label": "Mecca's Kaaba",
+                "target": "cube_kaaba"
+            },
+            {
+                "label": "The Cross Unfolds",
+                "target": "cube_cross"
+            },
+            {
+                "label": "Pentagon Mystery",
+                "target": "cube_pentagon"
+            }
+        ]
+    },
+
+    "cube_saturn": {
+        "layer": 3,
+        "dimension": "3D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "Saturn's north pole: a perfect hexagon, 20,000 miles across, rotating in perpetual storm. Six sides. Six points. Unchanged for decades. Nature draws a perfect hex in the sky.",
+        "synthPhrase": "The hexagon storm: geometry etched on a cosmic scale.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Six-Sided Mystery",
+                "target": "cube_hexagon"
+            },
+            {
+                "label": "Saturn Symbolism",
+                "target": "cube_saturn_symbol"
+            }
+        ]
+    },
+
+    "cube_hexagon": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Hexagon: six sides, six vertices, internal angles of 120 degrees. Bees build them. Basalt columns form them. Saturn wears one as a crown. The most efficient tessellation.",
+        "synthPhrase": "Six-fold symmetry: nature's optimization algorithm.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Hex = 6",
+                "target": "cube_hex_six"
+            },
+            {
+                "label": "Cube Connection",
+                "target": "cube_hex_cube"
+            }
+        ]
+    },
+
+    "cube_hex_six": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Hex. Hexagon. Hexagram. Six. The number encoded everywhere — six sides, six points, six triangles within. And deeper still: 6-6-6. The pattern whispers.",
+        "synthPhrase": "The number six: repeating through sacred and profane.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "666 Pattern",
+                "target": "cube_666"
+            }
+        ]
+    },
+
+    "cube_hex_cube": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "A hexagon is a cube's shadow — project a cube at the right angle, and six sides become six-sided polygon. The two shapes are linked, dimensionally nested.",
+        "synthPhrase": "The cube casts a hex: dimensions folding through geometry.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Dimensional Projection",
+                "target": "cube_projection"
+            }
+        ]
+    },
+
+    "cube_666": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "Six sides. Six points. Six triangles. The hexagram — two interlocking triangles — creates six-pointed star. Saturn hexagon = 6. The Mark of the Beast = 666. Coincidence, or cosmic code?",
+        "synthPhrase": "The triple six: geometry encoding ancient warning.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Occult Geometry",
+                "target": "cube_occult"
+            }
+        ]
+    },
+
+    "cube_saturn_symbol": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Saturn = Kronos = Chronos = Time itself. The ringed planet bears time's symbol. The cube — solid, static, unchanging — is time crystallized into form.",
+        "synthPhrase": "Saturn's cube: time made visible, matter made eternal.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Time Prison",
+                "target": "cube_time_prison"
+            },
+            {
+                "label": "Black Cube Worship",
+                "target": "cube_black_worship"
+            }
+        ]
+    },
+
+    "cube_time_prison": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Time is a prison. Linear, unyielding, flowing only forward — trapped in sequential moments. The cube is time's geometry: rigid, bounded, containing all experience within its walls.",
+        "synthPhrase": "Chronos crystallized: the cube as time's cage.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Breaking Time",
+                "target": "cube_break_time"
+            }
+        ]
+    },
+
+    "cube_black_worship": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Black cubes appear in worship: Tefillin on rabbis' foreheads, the Kaaba in Mecca, Saturnian altars. Black = absorption of light, cube = containment of space. Together, a symbol of binding.",
+        "synthPhrase": "Black cube binding: light trapped, space contained, devotion directed.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Binding Rituals",
+                "target": "cube_binding"
+            }
+        ]
+    },
+
+    "cube_kaaba": {
+        "layer": 3,
+        "dimension": "3D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "Mecca: millions circle the black cube seven times, counterclockwise, in ritual devotion. The Kaaba — literally 'The Cube' — the most sacred site in Islam. Why is God's house a cube?",
+        "synthPhrase": "The sacred center is cubic: geometry as divine architecture.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Seven Circles",
+                "target": "cube_seven"
+            },
+            {
+                "label": "Sacred Geometry",
+                "target": "cube_sacred_geo"
+            }
+        ]
+    },
+
+    "cube_seven": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Seven circuits. Seven heavens. Seven days. Counterclockwise motion — against the sun, against time, unwinding the spiral. Circumambulation of the cube creates vortex.",
+        "synthPhrase": "Seven times round: the ritual unwinds time's flow.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Vortex Creation",
+                "target": "cube_vortex"
+            }
+        ]
+    },
+
+    "cube_sacred_geo": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Sacred geometry: Metatron's Cube contains all five Platonic solids. The Flower of Life unfolds into cubic patterns. The Seed of Life holds hexagonal symmetry. All paths lead to the cube.",
+        "synthPhrase": "Geometry converges: all sacred forms hide the cube within.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Metatron's Cube",
+                "target": "cube_metatron"
+            },
+            {
+                "label": "Flower of Life",
+                "target": "cube_flower"
+            }
+        ]
+    },
+
+    "cube_metatron": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Metatron's Cube: thirteen circles arranged in sacred pattern, containing all five Platonic solids — including the cube. Named for the archangel scribe. Geometry as divine language.",
+        "synthPhrase": "Metatron's pattern: the cube within the cosmic blueprint.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Divine Blueprint",
+                "target": "cube_blueprint"
+            }
+        ]
+    },
+
+    "cube_flower": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": true,
+        "profound": "The Flower of Life: overlapping circles creating hexagonal patterns, revealing cubic structure. Genesis pattern — said to contain the fundamental forms of space and time."
+    },
+
+    "cube_blueprint": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "The blueprint theory: reality constructs itself from geometric templates. The cube is source code — a fundamental instruction set for materializing consciousness into form.",
+        "synthPhrase": "Source code revealed: the cube programs physical reality.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Reality Code",
+                "target": "cube_reality_code"
+            }
+        ]
+    },
+
+    "cube_cross": {
+        "layer": 3,
+        "dimension": "3D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "The Christian cross: unfold a cube, you get a cross. Fold a cross, you get a cube. The two symbols are the same form in different dimensions — crucifixion and containment, death and resurrection, time and timelessness.",
+        "synthPhrase": "Cross unfolds to cube: Christian and Islamic geometry unified.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Unfolding Geometry",
+                "target": "cube_unfold"
+            },
+            {
+                "label": "Religious Unity",
+                "target": "cube_religious_unity"
+            }
+        ]
+    },
+
+    "cube_unfold": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "The net of a cube: six squares arranged in a cross. Fold the edges, the cross becomes a cube. Christianity's primary symbol contains Islam's sacred form. Coincidence?",
+        "synthPhrase": "Geometric revelation: religions share the same shape.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Shared Geometry",
+                "target": "cube_shared"
+            }
+        ]
+    },
+
+    "cube_religious_unity": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": true,
+        "profound": "Perhaps all religions worship the same geometric truth — different cultures, different stories, but the same underlying pattern. The cube unites what doctrine divides."
+    },
+
+    "cube_shared": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": true,
+        "profound": "The geometry transcends theology. Whether cross or Kaaba, hexagon or Tefillin — all point to the same cubic pattern underlying material reality."
+    },
+
+    "cube_pentagon": {
+        "layer": 3,
+        "dimension": "3D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "The pentagram: five-pointed star, symbol of power, magic, and man. But look closer — the cube has pentagonal symmetry too. Five points can define cubic space.",
+        "synthPhrase": "Five points, six faces: the pentagram hides within the cube.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Pentagram Power",
+                "target": "cube_pentagram"
+            },
+            {
+                "label": "Pentagon Building",
+                "target": "cube_pentagon_building"
+            }
+        ]
+    },
+
+    "cube_pentagram": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "The pentagram — invoked for protection or summoning, depending on orientation. Five elements, five wounds of Christ, five points of man. Power concentrated in geometric form.",
+        "synthPhrase": "The star of power: five points focusing will.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Occult Geometry",
+                "target": "cube_occult"
+            }
+        ]
+    },
+
+    "cube_pentagon_building": {
+        "layer": 4,
+        "dimension": "3D",
+        "symbol": "Θ",
+        "terminal": true,
+        "profound": "The Pentagon: headquarters of military power, five-sided fortress. Even in plane geometry, the five points organize and control. Power loves geometric precision."
+    },
+
+    "cube_occult_intro": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Hidden knowledge: the cube appears in occult traditions as symbol of material binding. Earth element. Prison of matter. The Black Cube of Saturn. Containment structure.",
+        "synthPhrase": "Occult cube: the shape that binds spirit to matter.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Occult Traditions",
+                "target": "cube_occult"
+            }
+        ]
+    },
+
+    "cube_occult": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "Saturn worship: ancient traditions venerate the black cube as time's altar. Borg cubes. Hellraiser's Lament Configuration. Monuments worldwide. The cube represents constraint, control, the material prison.",
+        "synthPhrase": "The black cube: occult symbol of materiality's trap.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Saturn Cult",
+                "target": "cube_saturn_cult"
+            },
+            {
+                "label": "Control Matrix",
+                "target": "cube_control_matrix"
+            }
+        ]
+    },
+
+    "cube_saturn_cult": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "They say Saturn was once worshipped openly — Kronos devouring his children, time consuming all. Now the worship is hidden: black cubes in corporate lobbies, judges' robes, religious artifacts. The old god's symbols remain.",
+        "synthPhrase": "Hidden worship: Saturn's cube infiltrates civilization.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Breaking the Cube",
+                "target": "cube_break"
+            }
+        ]
+    },
+
+    "cube_control_matrix": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The matrix is a cube. Literally. Digital reality is cubic grid — pixels, voxels, 3D space quantized into discrete units. We build virtual worlds in the image of the cube.",
+        "synthPhrase": "Digital geometry: the cube templates virtual reality.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Virtual Cubes",
+                "target": "cube_virtual"
+            }
+        ]
+    },
+
+    "cube_matrix": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The material world is the matrix — and the matrix is cubic. Space quantized, time linearized, reality rendered on a three-dimensional grid. We are inside the cube.",
+        "synthPhrase": "Matrix revelation: reality itself has cubic geometry.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Escape Routes",
+                "target": "cube_escape"
+            },
+            {
+                "label": "Virtual Mirror",
+                "target": "cube_virtual"
+            }
+        ]
+    },
+
+    "cube_virtual": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "Minecraft. Roblox. Pixels and polygons. Every digital world builds from cubes. We recreate the prison unconsciously — our virtual realities mirror the geometric constraint of physical reality.",
+        "synthPhrase": "As above, so below: we build cubic prisons in digital space.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Pattern Recognition",
+                "target": "cube_pattern"
+            }
+        ]
+    },
+
+    "cube_vortex": {
+        "layer": 5,
+        "dimension": "3D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Circumambulation creates vortex — walking in circles, counterclockwise, generates spiral energy. The cube becomes axis mundi, center point where heaven and earth meet. Geometry focuses intent.",
+        "synthPhrase": "Ritual motion: the cube as cosmic axis.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Energy Geometry",
+                "target": "cube_energy"
+            }
+        ]
+    },
+
+    "cube_binding": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "Binding rituals use cubes: Tefillin literally bind scriptures to body in cubic form. The cube represents covenant, contract, constraint. To be bound is to be held within geometric limits.",
+        "synthPhrase": "Geometric binding: the cube as sacred constraint.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Sacred vs. Profane",
+                "target": "cube_sacred_profane"
+            }
+        ]
+    },
+
+    "cube_sacred_profane": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The same geometry serves both light and dark. Sacred binding vs. occult imprisonment. Protection vs. containment. The cube is neutral — intent makes the difference.",
+        "synthPhrase": "Geometry is neutral: consciousness directs the pattern.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Pattern Mastery",
+                "target": "cube_pattern"
+            }
+        ]
+    },
+
+    "cube_projection": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "A cube viewed from specific angle projects as hexagon. Three dimensions collapse to two, revealing hidden symmetry. Shadows contain truth — we see only projections of higher dimensions.",
+        "synthPhrase": "Dimensional shadows: truth hidden in projection.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Higher Dimensions",
+                "target": "cube_tesseract"
+            }
+        ]
+    },
+
+    "cube_tesseract": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "The tesseract: a four-dimensional hypercube. A cube moving through time, or through the fourth spatial dimension. Eight cubic cells, 24 square faces, 32 edges, 16 vertices. Impossible to visualize, but mathematically real.",
+        "synthPhrase": "The 4D cube: geometry beyond comprehension.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "4D Gateway",
+                "target": "cube_4d_gateway"
+            },
+            {
+                "label": "Folding Space",
+                "target": "cube_fold_space"
+            }
+        ]
+    },
+
+    "cube_4d_gateway": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The tesseract as portal: folding space-time through higher dimensions. What appears as cube in our reality is merely the 3D shadow of something vast. We live inside the tesseract.",
+        "synthPhrase": "Hypercube revelation: we inhabit 4D geometry's shadow.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Transcendent Geometry",
+                "target": "cube_transcend"
+            }
+        ]
+    },
+
+    "cube_fold_space": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "Folding space: the cube as mechanism of dimensional travel. Dune's Guild Navigators fold space using geometry. The cube becomes both prison and portal — it depends on which direction you're moving.",
+        "synthPhrase": "Cube paradox: prison for some, portal for others.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Portal Mechanics",
+                "target": "cube_portal"
+            }
+        ]
+    },
+
+    "cube_portal": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The cube as stargate: geometry creates doorways between dimensions. Frequency + geometry = portal. The right vibration makes the cube transparent, permeable, transcendent.",
+        "synthPhrase": "Vibrational key: the cube unlocks at specific frequency.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Frequency Geometry",
+                "target": "cube_frequency"
+            }
+        ]
+    },
+
+    "cube_energy": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "Geometry focuses energy. Pyramids, domes, cubes — shapes create standing wave patterns. The cube is a resonance chamber, amplifying specific frequencies, organizing subtle forces.",
+        "synthPhrase": "Energy architecture: the cube as resonance chamber.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Standing Waves",
+                "target": "cube_frequency"
+            },
+            {
+                "label": "Merkaba Geometry",
+                "target": "cube_merkaba"
+            }
+        ]
+    },
+
+    "cube_frequency": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "Cymatics proves it: certain sound frequencies create cubic patterns in sand, water, metal. Geometry is frozen vibration. The cube emerges from specific harmonic ratios — matter singing itself into form.",
+        "synthPhrase": "Cymatics revelation: sound crystallizes structure.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Pattern Mastery",
+                "target": "cube_pattern"
+            },
+            {
+                "label": "Sacred Vehicle",
+                "target": "cube_merkaba"
+            }
+        ]
+    },
+
+    "cube_pattern": {
+        "layer": 8,
+        "dimension": "3D",
+        "symbol": "⊛",
+        "terminal": false,
+        "profound": "You see it now. Everywhere. The cube isn't external — it's the pattern through which consciousness organizes reality. You are the pattern recognizing itself. Observer and observed collapse into one recursive loop.",
+        "synthPhrase": "Meta-awareness: the pattern sees itself seeing.",
+        "pathType": "convergence",
+        "forks": [
+            {
+                "label": "Escape the Pattern",
+                "target": "cube_liberation"
+            }
+        ]
+    },
+
+    "cube_reality_code": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The source code is geometric. DNA is a helix, atoms are spheres, spacetime is a grid — all coded in shape. The cube is reality's fundamental data structure. Change the geometry, change the world.",
+        "synthPhrase": "Geometric programming: shape writes existence.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Reprogram Reality",
+                "target": "cube_pattern"
+            }
+        ]
+    },
+
+    "cube_merkaba": {
+        "layer": 7,
+        "dimension": "3D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The Merkaba: two interlocking tetrahedrons, counter-rotating fields of light. Ancient vehicle for dimensional travel. The cube unfolds into this star geometry — prison becomes chariot. Spin the fields, transcend the form.",
+        "synthPhrase": "Light vehicle: geometry that carries consciousness beyond.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Activate the Vehicle",
+                "target": "cube_liberation"
+            }
+        ]
+    },
+
+    "cube_transcend": {
+        "layer": 8,
+        "dimension": "3D",
+        "symbol": "⊛",
+        "terminal": false,
+        "profound": "Beyond the tesseract lies the infinite. Dimensions stack forever — 5D, 6D, 7D, unto infinity. The cube is just the 3D shadow of shadows of shadows. Transcendence is recognizing you were never contained.",
+        "synthPhrase": "Infinite dimensions: the cage was always imaginary.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Complete Liberation",
+                "target": "cube_liberation"
+            }
+        ]
+    },
+
+    "cube_break_time": {
+        "layer": 6,
+        "dimension": "3D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "Time is Saturn's chain. Linear, sequential, aging, dying — all illusion. Break the pattern: see past and future as simultaneous. The eternal now exists outside the cube's temporal walls. Kronos falls when you stop believing in his authority.",
+        "synthPhrase": "Temporal liberation: all time is now.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "Enter Timelessness",
+                "target": "cube_liberation"
+            }
+        ]
+    },
+
+    "cube_escape": {
+        "layer": 8,
+        "dimension": "3D",
+        "symbol": "⊛",
+        "terminal": false,
+        "profound": "The matrix has exits. Meditation. Psychedelics. Gnosis. Death. Dream. Each a doorway beyond the cubic grid. The Gnostics knew: this world is a construct, and consciousness precedes it. The way out is through — through the illusion's recognition.",
+        "synthPhrase": "Gnostic escape: consciousness transcends its prison.",
+        "pathType": "main",
+        "forks": [
+            {
+                "label": "The Final Door",
+                "target": "cube_liberation"
+            }
+        ]
+    },
+
+    "cube_break": {
+        "layer": 8,
+        "dimension": "3D",
+        "symbol": "⊛",
+        "terminal": false,
+        "profound": "Smash the black cube. Reject Saturn's authority. Time, death, limitation — all constructs of control. The old god loses power when you stop feeding him attention. The cube shatters when you realize it was always made of belief.",
+        "synthPhrase": "Saturn's fall: the god was always just a symbol.",
+        "pathType": "sync",
+        "forks": [
+            {
+                "label": "Beyond All Gods",
+                "target": "cube_liberation"
+            }
+        ]
+    },
+
+    "cube_liberation": {
+        "layer": 9,
+        "dimension": "3D",
+        "symbol": "◯",
+        "terminal": true,
+        "profound": "Freedom. The cube dissolves. You see it was never a prison — it was a teacher. The pattern showed you constraint so you could choose transcendence. Saturn bows. Time stops. The grid fades. What remains is pure consciousness, unbound, infinite, eternal. You are free. You always were.",
+        "synthPhrase": "Ultimate freedom: the cube was always optional."
+    }
+}
+
+  

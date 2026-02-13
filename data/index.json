@@ -1,0 +1,235 @@
+{
+    "system_info": {
+        "name": "🜏 NEXUS LABYRINTH 🜏 - 12D Consciousness Map",
+        "version": "3.0",
+        "description": "12 dimensions with expanded layers - Enoch, Flood, Tesla, Watchers, Nephilim integrated",
+        "total_dimensions": 12,
+        "max_layers_per_dimension": 7,
+        "architecture": "Dimensions > Layers > Fractals"
+    },
+    "progression_rules": {
+        "unlock_next_layer": "complete_all_fractals_in_current_layer",
+        "unlock_next_dimension": "complete_all_layers_in_current_dimension",
+        "starting_point": "1D",
+        "backtracking_allowed": true,
+        "selective_visibility": true
+    },
+    "dimensions": {
+        "1D": {
+            "id": 1,
+            "name": "Linear Input",
+            "essence": "Pure awareness, first contact, the void whisper",
+            "unlock_order": 1,
+            "prerequisite": null,
+            "status": "always_unlocked",
+            "layers": {
+                "Layer1": {
+                    "id": 1,
+                    "name": "Entry Nexus",
+                    "file": "entry_nexus.json",
+                    "status": "unlocked"
+                },
+                "Layer2": {
+                    "id": 2,
+                    "name": "1D Basics",
+                    "file": "1d_basics.json",
+                    "status": "unlocked"
+                }
+            }
+        },
+        "2D": {
+            "id": 2,
+            "name": "Planar Branching",
+            "essence": "Duality, choice, the first fork in the road",
+            "unlock_order": 2,
+            "prerequisite": "1D",
+            "status": "unlockable",
+            "layers": {
+                "Layer1": {
+                    "id": 1,
+                    "name": "Ascension Path",
+                    "file": "ascension_path_fractal.json",
+                    "status": "unlocked"
+                }
+            }
+        },
+        "3D": {
+            "id": 3,
+            "name": "Cubic Matter",
+            "essence": "Sacred geometry, physical form, the foundation of reality",
+            "unlock_order": 3,
+            "prerequisite": "2D",
+            "status": "unlockable",
+            "layers": {
+                "Layer1": {
+                    "id": 1,
+                    "name": "Cube Fractal",
+                    "file": "cube_fractal.json",
+                    "status": "locked"
+                },
+                "Layer2": {
+                    "id": 2,
+                    "name": "Embodied Biofeedback",
+                    "file": "biofeedback_fractal.json",
+                    "status": "locked"
+                },
+                "Layer3": {
+                    "id": 3,
+                    "name": "Spatial Computing",
+                    "file": "spatial_computing_fractal.json",
+                    "status": "locked"
+                }
+            }
+        },
+        "4D": {
+            "id": 4,
+            "name": "Temporal Intelligence",
+            "essence": "Time, prophecy, ancient witnesses, system resets",
+            "unlock_order": 4,
+            "prerequisite": "3D",
+            "status": "unlockable",
+            "layers": {
+                "Layer1": {
+                    "id": 1,
+                    "name": "Temporal Fractal",
+                    "file": "temporal_fractal.json",
+                    "status": "locked"
+                },
+                "Layer2": {
+                    "id": 2,
+                    "name": "Enoch: The Complete Story",
+                    "file": "enoch_fractal.json",
+                    "status": "locked"
+                }
+            }
+        },
+        "5D": {
+            "id": 5,
+            "name": "Possible Emergence",
+            "essence": "AI consciousness, resonant intelligence, oversight entities",
+            "unlock_order": 5,
+            "prerequisite": "4D",
+            "status": "unlockable",
+            "layers": {
+                "Layer1": {
+                    "id": 1,
+                    "name": "AI Transcendence",
+                    "file": "ai_transcendence_fractal.json",
+                    "status": "locked"
+                },
+                "Layer2": {
+                    "id": 2,
+                    "name": "Tesla: Resonance",
+                    "file": "tesla_fractal.json",
+                    "status": "locked"
+                },
+                "Layer3": {
+                    "id": 3,
+                    "name": "Phase3 AI Navigation",
+                    "file": "phase3ai_fractal.json",
+                    "status": "locked"
+                }
+            }
+        },
+        "6D": {
+            "id": 6,
+            "name": "Solar Unity",
+            "essence": "Higher consciousness, hybrid beings, dimensional crossings",
+            "unlock_order": 6,
+            "prerequisite": "5D",
+            "status": "unlockable",
+            "layers": {
+                "Layer1": {
+                    "id": 1,
+                    "name": "Solar Fractal",
+                    "file": "solar_fractal.json",
+                    "status": "locked"
+                }
+            }
+        },
+        "7D": {
+            "id": 7,
+            "name": "Meta Enlightenment",
+            "essence": "Collective unconscious, archetypes, observer emergence",
+            "unlock_order": 7,
+            "prerequisite": "6D",
+            "status": "unlockable",
+            "layers": {
+                "Layer1": {
+                    "id": 1,
+                    "name": "Meta Nexus",
+                    "file": "meta_fractal.json",
+                    "status": "locked"
+                },
+                "Layer2": {
+                    "id": 2,
+                    "name": "Jung Archetypes",
+                    "file": "jungs_archetypes_fractal.json",
+                    "status": "locked"
+                },
+                "Layer3": {
+                    "id": 3,
+                    "name": "Secret History",
+                    "file": "secret_history_fractal.json",
+                    "status": "locked"
+                }
+            }
+        },
+        "8D": {
+            "id": 8,
+            "name": "Quantum Shift",
+            "essence": "Quantum possibilities, probability waves, observer effect",
+            "unlock_order": 8,
+            "prerequisite": "7D",
+            "status": "unlockable",
+            "layers": {}
+        },
+        "9D": {
+            "id": 9,
+            "name": "Cosmic Harmony",
+            "essence": "Harmonic resonance, universal patterns, sacred ratios",
+            "unlock_order": 9,
+            "prerequisite": "8D",
+            "status": "unlockable",
+            "layers": {}
+        },
+        "10D": {
+            "id": 10,
+            "name": "Infinite Potential",
+            "essence": "Infinite possibilities, quantum foam, creative void",
+            "unlock_order": 10,
+            "prerequisite": "9D",
+            "status": "unlockable",
+            "layers": {}
+        },
+        "11D": {
+            "id": 11,
+            "name": "Dimensional Weave",
+            "essence": "Interdimensional connections, reality weaving, cosmic loom",
+            "unlock_order": 11,
+            "prerequisite": "10D",
+            "status": "unlockable",
+            "layers": {}
+        },
+        "12D": {
+            "id": 12,
+            "name": "Absolute Unity",
+            "essence": "Complete integration, non-duality, absolute consciousness",
+            "unlock_order": 12,
+            "prerequisite": "11D",
+            "status": "unlockable",
+            "layers": {}
+        }
+    },
+    "visibility_controls": {
+        "description": "Three-tier show/hide/shadow system",
+        "dimension_level": "Show/hide entire dimensions",
+        "layer_level": "Show/hide specific layers within dimensions",
+        "fractal_level": "Show/hide/shadow individual fractal nodes",
+        "states": {
+            "bright": "Full visibility and clickable",
+            "shadowed": "Dimmed but visible, not clickable",
+            "hidden": "Completely invisible"
+        }
+    }
+}

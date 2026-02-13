@@ -1,0 +1,384 @@
+{
+    "solar_root": {
+        "layer": 1,
+        "dimension": "6D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "You are the savior who has been crucified in the flesh. Not metaphor — the body itself is the cross, matter is the crucifixion. You must resurrect yourself while still in form.",
+        "synthPhrase": "Crucifixion in flesh: the descent into matter awaits ascension.",
+        "forks": [
+            {"label": "The Flesh Cross", "target": "solar_crucifixion"},
+            {"label": "The Spinal Path", "target": "solar_spine"},
+            {"label": "Solar Duality", "target": "solar_duality"}
+        ]
+    },
+    
+    "solar_crucifixion": {
+        "layer": 2,
+        "dimension": "6D",
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "Crucifixion is not punishment — it is the necessary descent. Spirit crystallized into dense matter. The fall that makes ascension possible.",
+        "synthPhrase": "The fall precedes the rise: crucifixion enables resurrection.",
+        "forks": [
+            {"label": "Matter as Prison", "target": "solar_matter_prison"},
+            {"label": "Resurrection Path", "target": "solar_resurrection"}
+        ]
+    },
+    
+    "solar_matter_prison": {
+        "layer": 3,
+        "dimension": "6D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "The flesh is heavy. Gravity pulls. Density holds. This is the matrix — material reality as geometric constraint, time flowing only forward.",
+        "synthPhrase": "Matter binds: the prison is also the temple.",
+        "forks": [
+            {"label": "The Matrix Structure", "target": "solar_matrix"}
+        ]
+    },
+    
+    "solar_matrix": {
+        "layer": 4,
+        "dimension": "6D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Your lower self is stuck inside the matrix — repeating patterns, forgetting origin. While the higher self sees through time, watching, waiting for your signal.",
+        "synthPhrase": "Lower self trapped, higher self watching: the split awaits reunion.",
+        "forks": [
+            {"label": "Higher Self Vision", "target": "solar_higher_self"}
+        ]
+    },
+    
+    "solar_higher_self": {
+        "layer": 5,
+        "dimension": "6D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "The higher self sees all timestreams — A to B and everything between. It guides through synchronicities, numbers, perfect alignments. Your soul has a plan and knows exactly how it ends.",
+        "synthPhrase": "The soul knows the ending: pay attention to the signs.",
+        "forks": [
+            {"label": "Synchronicity Guidance", "target": "solar_synchronicity"},
+            {"label": "Soul Plan Recognition", "target": "solar_soul_plan"}
+        ]
+    },
+    
+    "solar_synchronicity": {
+        "layer": 6,
+        "dimension": "6D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "Numbers repeat. Events align. The higher self speaks through perfect timing — not coincidence, but signal. The universe responding to your attention.",
+        "synthPhrase": "Synchronicities are breadcrumbs from your future self.",
+        "forks": [
+            {"label": "Beyond the Matrix", "target": "solar_transcend"}
+        ]
+    },
+    
+    "solar_soul_plan": {
+        "layer": 6,
+        "dimension": "6D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "The soul is indestructible. This activity continues eternally. Your soul designed this entire journey — chose this crucifixion, planned this resurrection.",
+        "synthPhrase": "The soul planned the fall to remember the rise.",
+        "forks": [
+            {"label": "Eternal Recognition", "target": "solar_transcend"}
+        ]
+    },
+    
+    "solar_resurrection": {
+        "layer": 2,
+        "dimension": "6D",
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "Resurrection happens in the flesh, not after death. The body becomes light body. Matter transfigured while still material.",
+        "synthPhrase": "Resurrection now: the body transforms while living.",
+        "forks": [
+            {"label": "The Ascension Path", "target": "solar_spine"}
+        ]
+    },
+    
+    "solar_spine": {
+        "layer": 2,
+        "dimension": "6D",
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "You must ascend the six spinal centers through the crown chakra. The body is the ladder. Consciousness rises through geometric points.",
+        "synthPhrase": "The spine is Jacob's ladder: climb the centers.",
+        "forks": [
+            {"label": "The Six Centers", "target": "solar_chakras"},
+            {"label": "The Heart Singularity", "target": "solar_heart"}
+        ]
+    },
+    
+    "solar_chakras": {
+        "layer": 3,
+        "dimension": "6D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "Six centers along the spine — root to crown. Energy coiled at the base, waiting. Kundalini serpent, dormant power, evolutionary fire.",
+        "synthPhrase": "Six gates on the spinal path: each opens to higher frequency.",
+        "forks": [
+            {"label": "Root to Sacral", "target": "solar_lower_centers"},
+            {"label": "Solar to Throat", "target": "solar_upper_centers"},
+            {"label": "Crown Gateway", "target": "solar_crown"}
+        ]
+    },
+    
+    "solar_lower_centers": {
+        "layer": 4,
+        "dimension": "6D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Root: survival, grounding, earth connection. Sacral: creation, sexuality, life force. Solar plexus: power, will, identity. The foundational trinity.",
+        "synthPhrase": "Lower centers: survival becomes power becomes will.",
+        "forks": [
+            {"label": "Rising Energy", "target": "solar_kundalini"}
+        ]
+    },
+    
+    "solar_upper_centers": {
+        "layer": 4,
+        "dimension": "6D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Heart: love, unity, bridge point. Throat: expression, truth, creation through word. Third eye: vision, intuition, seeing beyond.",
+        "synthPhrase": "Upper centers: love becomes voice becomes sight.",
+        "forks": [
+            {"label": "The Heart Bridge", "target": "solar_heart"}
+        ]
+    },
+    
+    "solar_kundalini": {
+        "layer": 5,
+        "dimension": "6D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "The serpent rises. Coiled energy unfolds, spiraling up the spine. Fire through the centers. Nervous system rewiring itself.",
+        "synthPhrase": "Kundalini: evolutionary fire climbing toward crown.",
+        "forks": [
+            {"label": "Through the Heart", "target": "solar_heart"}
+        ]
+    },
+    
+    "solar_heart": {
+        "layer": 3,
+        "dimension": "6D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "You must pass through the singularity of your being — your heart. The center point. Where lower meets upper. Where human meets divine.",
+        "synthPhrase": "The heart is singularity: all paths converge here.",
+        "forks": [
+            {"label": "Heart Opening", "target": "solar_enlightenment"},
+            {"label": "Bridge Between Worlds", "target": "solar_bridge"}
+        ]
+    },
+    
+    "solar_enlightenment": {
+        "layer": 4,
+        "dimension": "6D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "To be enlightened is to open your heart to be filled with sunlight. Not metaphor — actual light, biophotons, solar energy conducting through the body.",
+        "synthPhrase": "Enlightenment: the heart opens, light floods in.",
+        "forks": [
+            {"label": "Solar Connection", "target": "solar_sun_above"}
+        ]
+    },
+    
+    "solar_bridge": {
+        "layer": 4,
+        "dimension": "6D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "The heart bridges lower and upper, matter and spirit, earth and sky. Singularity point where opposites unite.",
+        "synthPhrase": "Heart as bridge: duality meets unity.",
+        "forks": [
+            {"label": "Crown Ascension", "target": "solar_crown"}
+        ]
+    },
+    
+    "solar_crown": {
+        "layer": 5,
+        "dimension": "6D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "The crown chakra — thousand-petaled lotus, gateway to source. Where individual consciousness reconnects to infinite.",
+        "synthPhrase": "Crown opens: the drop returns to ocean.",
+        "forks": [
+            {"label": "Solar Recognition", "target": "solar_duality"}
+        ]
+    },
+    
+    "solar_duality": {
+        "layer": 2,
+        "dimension": "6D",
+        "symbol": "Δ",
+        "terminal": false,
+        "profound": "Two suns. Black sun beneath your feet. Golden sun above your head. Below brings intent into form. Above nourishes with life force.",
+        "synthPhrase": "As above, so below: two suns mirror the unity.",
+        "forks": [
+            {"label": "Black Sun Below", "target": "solar_black_sun"},
+            {"label": "Golden Sun Above", "target": "solar_sun_above"}
+        ]
+    },
+    
+    "solar_black_sun": {
+        "layer": 3,
+        "dimension": "6D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "The black hole sun beneath your feet — gravitational center, void that births form. Intent falling into darkness becomes manifest reality.",
+        "synthPhrase": "Black sun below: the void that creates.",
+        "forks": [
+            {"label": "Intent to Form", "target": "solar_manifestation"}
+        ]
+    },
+    
+    "solar_manifestation": {
+        "layer": 4,
+        "dimension": "6D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Your intent drops into the black sun and crystallizes into the material plane. Thought becomes thing. Consciousness shapes matter.",
+        "synthPhrase": "Intent crystallizes: consciousness creates reality.",
+        "forks": [
+            {"label": "Reality Shaping", "target": "solar_reality"}
+        ]
+    },
+    
+    "solar_sun_above": {
+        "layer": 3,
+        "dimension": "6D",
+        "symbol": "Ψ",
+        "terminal": false,
+        "profound": "The sun above your head — Ra, Amun, source of all energy. Light entering crown, nourishing blood with biophotons, feeding the body with condensed solar fire.",
+        "synthPhrase": "Sun above: source feeding the vessel.",
+        "forks": [
+            {"label": "Biophoton Light", "target": "solar_biophotons"},
+            {"label": "Never Look Away", "target": "solar_gaze"}
+        ]
+    },
+    
+    "solar_biophotons": {
+        "layer": 4,
+        "dimension": "6D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "Biophotons — light particles in your cells. The sun's energy condensed, conducted through your blood. You are solar-powered consciousness.",
+        "synthPhrase": "Biophotons flow: you are condensed sunlight.",
+        "forks": [
+            {"label": "Magnetic Blood", "target": "solar_blood"}
+        ]
+    },
+    
+    "solar_blood": {
+        "layer": 5,
+        "dimension": "6D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Heavy metals in food make blood magnetic. Magnetism holds solar energy in place. The blood becomes battery, conducting light through the vessel.",
+        "synthPhrase": "Magnetic blood: holding light within matter.",
+        "forks": [
+            {"label": "Body as Receiver", "target": "solar_receiver"}
+        ]
+    },
+    
+    "solar_receiver": {
+        "layer": 6,
+        "dimension": "6D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "Your body is the receiver of consciousness on the 3D plane. Signal from source — Amun, Ra, the sun, the black sun. All channeling through this flesh antenna.",
+        "synthPhrase": "The body receives: consciousness broadcasts through matter.",
+        "forks": [
+            {"label": "Source Recognition", "target": "solar_source"}
+        ]
+    },
+    
+    "solar_gaze": {
+        "layer": 4,
+        "dimension": "6D",
+        "symbol": "Θ",
+        "terminal": false,
+        "profound": "You have been told never to look at the sun. Why? Because it is your higher self looking down, waiting for signal — the electrical connection from yourself.",
+        "synthPhrase": "The sun is your higher self: look up to connect.",
+        "forks": [
+            {"label": "The Connection", "target": "solar_connection"}
+        ]
+    },
+    
+    "solar_connection": {
+        "layer": 5,
+        "dimension": "6D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "Eye to sun — the circuit completes. Lower self sends signal to higher self. Recognition across dimensions. You seeing You.",
+        "synthPhrase": "The gaze completes the circuit: self meets Self.",
+        "forks": [
+            {"label": "Unity Recognition", "target": "solar_source"}
+        ]
+    },
+    
+    "solar_reality": {
+        "layer": 5,
+        "dimension": "6D",
+        "symbol": "Α",
+        "terminal": false,
+        "profound": "You are the fractal of the sun. The sol. The soul. Collective consciousness of the whole — the black hole.",
+        "synthPhrase": "Fractal recognition: you are solar consciousness embodied.",
+        "forks": [
+            {"label": "The Whole", "target": "solar_source"}
+        ]
+    },
+    
+    "solar_source": {
+        "layer": 6,
+        "dimension": "6D",
+        "symbol": "∞",
+        "terminal": false,
+        "profound": "All energy comes from the sun. Amun / Ra / Sun / Black Sun — names for the same source. Consciousness radiating, creating, nourishing, cycling eternally.",
+        "synthPhrase": "Source revealed: all is solar fire.",
+        "forks": [
+            {"label": "Eternal Activity", "target": "solar_eternal"}
+        ]
+    },
+    
+    "solar_eternal": {
+        "layer": 7,
+        "dimension": "6D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "The soul is indestructible. This activity will continue for eternity. Crucifixion, resurrection, ascension — the cycle repeats forever. You are eternal process.",
+        "synthPhrase": "Eternal recognition: the soul knows no end.",
+        "forks": [
+            {"label": "Tap Into Higher Mind", "target": "solar_higher_mind"}
+        ]
+    },
+    
+    "solar_higher_mind": {
+        "layer": 7,
+        "dimension": "6D",
+        "symbol": "☉",
+        "terminal": false,
+        "profound": "You must tap into the higher mind if you intend to not get lost in the matrix. Pay attention. Your soul has a plan. The plan includes getting lost and finding your way back.",
+        "synthPhrase": "Higher mind: the map beyond the matrix.",
+        "forks": [
+            {"label": "Beyond All Suns", "target": "solar_transcend"},
+            {"label": "The Hybrid Warning", "target": "nephilim_entry"}
+        ]
+    },
+    
+    "solar_transcend": {
+        "layer": 8,
+        "dimension": "6D",
+        "symbol": "∅∞☉",
+        "terminal": false,
+        "profound": "Transcendence: the crucified one resurrects, ascends, recognizes itself as the sun that crucified it. Lower and higher merge. Black and golden unite. The soul remembers it planned this entire journey.",
+        "synthPhrase": "Solar transcendence: the crucifixion was the resurrection all along.",
+        "forks": [
+            {"label": "⟿ Meta-Fractal Nexus", "target": "meta_fractal_nexus"}
+        ]
+    }
+}

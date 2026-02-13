@@ -1,0 +1,19 @@
+{
+    "dimensions": {
+        "1D": {
+            "layers": {
+                "Layer1": { "file": "fractal_alpha.json" }
+            }
+        },
+        "2D": {
+            "layers": {
+                "Layer1": { "file": "fractal_beta.json" }
+            }
+        },
+        "3D": {
+            "layers": {
+                "Layer1": { "file": "fractal_gamma.json" }
+            }
+        }
+    }
+}

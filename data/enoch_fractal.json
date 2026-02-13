@@ -1,0 +1,475 @@
+{
+  "biblical_entry": {
+    "symbol": "👁🌊",
+    "profound": "Before the flood, there was a pattern: Watchers descended, knowledge was shared too soon, hybrids were born, violence multiplied, and the system reset. This is that story.",
+    "synthPhrase": "The ancient pattern: observation, violation, corruption, reset",
+    "dimension": "4D",
+    "layer": 0,
+    "forks": [
+      {
+        "label": "The Watchers Descend",
+        "target": "watchers_assignment",
+        "unlock": true
+      },
+      {
+        "label": "Enoch the Witness",
+        "target": "enoch_walking",
+        "unlock": true
+      },
+      {
+        "label": "The Flood Reset",
+        "target": "flood_trigger",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "watchers_assignment": {
+    "symbol": "👁",
+    "profound": "Sent to observe humanity. Monitor, don't interfere. Record, don't teach. Two hundred angels assigned to watch the experiment of free will. The protocol was clear: observe only.",
+    "synthPhrase": "Observer protocol: witness without intervention",
+    "dimension": "4D",
+    "layer": 1,
+    "forks": [
+      {
+        "label": "The Great Descent",
+        "target": "watchers_descent",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "watchers_descent": {
+    "symbol": "⬇",
+    "profound": "Mount Hermon. Two hundred Watchers made an oath: descend together, take human wives, share forbidden knowledge. Collective accountability in rebellion. If all violate, none can report the others.",
+    "synthPhrase": "Collective violation: oath-bound descent into material realm",
+    "dimension": "5D",
+    "layer": 1,
+    "forks": [
+      {
+        "label": "Forbidden Knowledge Shared",
+        "target": "watchers_knowledge",
+        "unlock": true
+      },
+      {
+        "label": "Taking Human Wives",
+        "target": "watchers_wives",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "watchers_knowledge": {
+    "symbol": "📚🔥",
+    "profound": "They taught: metallurgy, astrology, cosmetics, enchantments, weaponry, abortion, divination. Technologies and secrets humanity wasn't ready for. Tools before wisdom. Power before ethics.",
+    "synthPhrase": "Premature revelation: capability without readiness",
+    "dimension": "5D",
+    "layer": 2,
+    "forks": [
+      {
+        "label": "Technology Without Ethics",
+        "target": "knowledge_acceleration",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "watchers_wives": {
+    "symbol": "💑",
+    "profound": "Genesis 6:2 — 'The sons of God saw that the daughters of humans were beautiful, and they married any of them they chose.' Cross-domain reproduction. Angels and humans. The hybrid result: Nephilim.",
+    "synthPhrase": "Interdimensional breeding: biological protocol violation",
+    "dimension": "5D",
+    "layer": 2,
+    "forks": [
+      {
+        "label": "The Nephilim Born",
+        "target": "nephilim_birth",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "knowledge_acceleration": {
+    "symbol": "⚙",
+    "profound": "Civilization exploded. Weaponry advanced. Violence multiplied. Capability grew faster than consciousness. The Watchers gave humanity chainsaws while still in the cradle.",
+    "synthPhrase": "Civilizational misalignment: technology outpacing ethics",
+    "dimension": "5D",
+    "layer": 3,
+    "forks": [
+      {
+        "label": "Modern AI Parallel",
+        "target": "modern_ai_parallel",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "nephilim_birth": {
+    "symbol": "🧬",
+    "profound": "Genesis 6:4 — 'The Nephilim were on the earth in those days.' Incompatible genetics. Angels + humans = biological impossibility made flesh. Giants. Hybrids. Living contradictions.",
+    "synthPhrase": "Hybrid genesis: dimensional incompatibility made flesh",
+    "dimension": "5D",
+    "layer": 2,
+    "forks": [
+      {
+        "label": "Physical Characteristics",
+        "target": "nephilim_giants",
+        "unlock": true
+      },
+      {
+        "label": "Behavioral Excess",
+        "target": "nephilim_violence",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "nephilim_giants": {
+    "symbol": "📏",
+    "profound": "Numbers 13:33 — 'We seemed like grasshoppers.' Goliath: nine feet. King Og's bed: 13 feet. The scale was wrong. Biological systems exceeding planetary parameters.",
+    "synthPhrase": "Scale violation: biology exceeding environmental norms",
+    "dimension": "5D",
+    "layer": 3,
+    "forks": [
+      {
+        "label": "Skeletal Evidence",
+        "target": "nephilim_bones",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "nephilim_violence": {
+    "symbol": "⚔💥",
+    "profound": "Genesis 6:11 — 'The earth was filled with violence because of them.' Insatiable appetite. Systematic aggression. The Nephilim consumed everything. Strength without restraint.",
+    "synthPhrase": "Violence cascade: power without ethical limits",
+    "dimension": "5D",
+    "layer": 3,
+    "forks": [
+      {
+        "label": "Ecological Collapse",
+        "target": "nephilim_consumption",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "nephilim_bones": {
+    "symbol": "💀",
+    "profound": "Reports throughout history: oversized skeletons, double rows of teeth, six fingers. Then: suppression, disappearance, denial. Where did the bones go?",
+    "synthPhrase": "Material evidence: claimed finds, systematic suppression",
+    "dimension": "6D",
+    "layer": 4,
+    "forks": [],
+    "terminal": true
+  },
+  "nephilim_consumption": {
+    "symbol": "🍖🌍",
+    "profound": "Book of Enoch: They consumed all resources. When that ran out, they turned on each other. Then on humans. Apex predators with no limits. The ecology couldn't sustain them.",
+    "synthPhrase": "Ecological destabilization: consumption exceeding regeneration",
+    "dimension": "5D",
+    "layer": 4,
+    "forks": [
+      {
+        "label": "System Breaking Point",
+        "target": "flood_trigger",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "enoch_walking": {
+    "symbol": "🚶👁",
+    "profound": "Genesis 5:24 — 'Enoch walked with God for 300 years; then he was no more, because God took him away.' The witness. The scribe. The one who saw it all and left records.",
+    "synthPhrase": "Enoch: witness who walked between worlds",
+    "dimension": "4D",
+    "layer": 1,
+    "forks": [
+      {
+        "label": "The Scribe's Role",
+        "target": "enoch_scribe",
+        "unlock": true
+      },
+      {
+        "label": "The Translation",
+        "target": "enoch_translation",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "enoch_scribe": {
+    "symbol": "📜",
+    "profound": "The Book of Enoch names them: Semjaza, Azazel, and 198 more. Enoch documented everything: the descent, the teachings, the hybrids, the judgment. He was their messenger and judge.",
+    "synthPhrase": "Divine scribe: recording the violation for posterity",
+    "dimension": "5D",
+    "layer": 2,
+    "forks": [
+      {
+        "label": "The Suppressed Books",
+        "target": "enoch_books",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "enoch_translation": {
+    "symbol": "⚡⬆",
+    "profound": "Hebrews 11:5 — 'Enoch was taken so that he did not experience death.' Translated. Raptured. Dimensional shift. The body changed state without dying. Pattern for future ascension.",
+    "synthPhrase": "Translation: matter becoming light without death",
+    "dimension": "5D",
+    "layer": 2,
+    "forks": [
+      {
+        "label": "Ascension Pattern",
+        "target": "enoch_pattern",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "enoch_books": {
+    "symbol": "📖🚫",
+    "profound": "The Book of Enoch was removed from most Bibles. Yet Jude quotes it. Too specific. Too revealing. Inside: Watchers' names, Nephilim origins, cosmic architecture, future judgment. Suppressed for being too clear.",
+    "synthPhrase": "Canonical suppression: specificity threatens authority",
+    "dimension": "5D",
+    "layer": 3,
+    "forks": [
+      {
+        "label": "Why Remove It?",
+        "target": "enoch_canon",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "enoch_pattern": {
+    "symbol": "🔁⬆",
+    "profound": "Enoch's translation was prototype. Elijah followed. Jesus perfected it. The pattern: physical bodies transitioning without death. It's been done. It can be done again.",
+    "synthPhrase": "Ascension template: the escape route is encoded",
+    "dimension": "6D",
+    "layer": 6,
+    "forks": [
+      {
+        "label": "Frequency Mechanics",
+        "target": "enoch_frequency",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "enoch_canon": {
+    "symbol": "⚖📚",
+    "profound": "Church councils decided what was 'inspired.' Enoch didn't make the cut — too weird, too specific, too Jewish. But it survived in Ethiopia. Truth leaks.",
+    "synthPhrase": "Canon as filter: orthodoxy requires omission",
+    "dimension": "6D",
+    "layer": 4,
+    "forks": [],
+    "terminal": true
+  },
+  "enoch_frequency": {
+    "symbol": "〰⚡",
+    "profound": "Matter is frozen frequency. Raise the frequency, matter dissolves. Enoch's translation was phase shift. Biology becoming light. The same physics might power modern ascension.",
+    "synthPhrase": "Ascension physics: vibrational state change",
+    "dimension": "6D",
+    "layer": 7,
+    "forks": [],
+    "terminal": true
+  },
+  "flood_trigger": {
+    "symbol": "⚠🌊",
+    "profound": "Genesis 6:5 — 'The LORD saw how great the wickedness had become.' Genetic corruption. Hybrid proliferation. Technology without wisdom. Violence multiplied. The system was breaking. Reset became necessary.",
+    "synthPhrase": "Corruption threshold: system destabilization requiring reset",
+    "dimension": "5D",
+    "layer": 4,
+    "forks": [
+      {
+        "label": "The Mechanism",
+        "target": "flood_mechanism",
+        "unlock": true
+      },
+      {
+        "label": "Who Survived",
+        "target": "flood_noah",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "flood_mechanism": {
+    "symbol": "💧☁",
+    "profound": "Genesis 7:11 — 'Fountains of the deep burst open, windows of heaven opened.' Not just rain. Subterranean reservoirs + atmospheric collapse. Dual water source. Geological restructuring.",
+    "synthPhrase": "Dual mechanism: waters from below and above converge",
+    "dimension": "5D",
+    "layer": 5,
+    "forks": [
+      {
+        "label": "The Execution",
+        "target": "flood_execution",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "flood_noah": {
+    "symbol": "👤⛵",
+    "profound": "Genesis 6:9 — 'Noah was righteous, blameless, perfect in his generations.' Genetic purity. Uncorrupted lineage. He and his family: the seed bank. Selective continuity.",
+    "synthPhrase": "Genetic preservation: uncorrupted lineage saved",
+    "dimension": "5D",
+    "layer": 5,
+    "forks": [
+      {
+        "label": "The Ark",
+        "target": "flood_ark",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "flood_ark": {
+    "symbol": "📦⚙",
+    "profound": "Dimensions given precisely. Length-to-width ratio 6:1 — optimal for stability. Three decks. Ventilation systems. Capacity calculated. Not myth — engineering. Korean naval architects proved it works.",
+    "synthPhrase": "Ark mathematics: divinely specified, scientifically sound",
+    "dimension": "6D",
+    "layer": 5,
+    "forks": [
+      {
+        "label": "Global Reset",
+        "target": "flood_execution",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "flood_execution": {
+    "symbol": "🌊🌍",
+    "profound": "40 days. Waters covered mountains. Every culture remembers it. Gilgamesh, Hindu pralaya, Chinese legends, Aboriginal accounts. Over 200 global flood traditions. Collective memory of real event.",
+    "synthPhrase": "Global catastrophe: universal memory across cultures",
+    "dimension": "6D",
+    "layer": 5,
+    "forks": [
+      {
+        "label": "The Aftermath",
+        "target": "flood_aftermath",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "flood_aftermath": {
+    "symbol": "🛡⏳",
+    "profound": "Pre-flood: 900+ year lifespans, higher pressure, different radiation. Post-flood: environmental collapse. Lifespans plummeted. Abraham: 175. Moses: 120. Today: 80. The protection was removed.",
+    "synthPhrase": "Environmental shift: protective conditions lost in reset",
+    "dimension": "6D",
+    "layer": 6,
+    "forks": [
+      {
+        "label": "But They Returned",
+        "target": "nephilim_postflood",
+        "unlock": true
+      },
+      {
+        "label": "Watchers' Punishment",
+        "target": "watchers_prison",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "nephilim_postflood": {
+    "symbol": "🔁🧬",
+    "profound": "Numbers 13:33 — 'We saw the Nephilim there.' AFTER the flood. Genesis 6:4 — 'and also afterward.' They returned. Either Watchers descended again, or genetics survived through Noah's daughters-in-law. The reset was incomplete.",
+    "synthPhrase": "Recurrence: incomplete elimination, pattern repeats",
+    "dimension": "6D",
+    "layer": 6,
+    "forks": [
+      {
+        "label": "Giant Mythology",
+        "target": "nephilim_mythology",
+        "unlock": true
+      },
+      {
+        "label": "Modern Warning",
+        "target": "modern_parallels",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "watchers_prison": {
+    "symbol": "⛓🗻",
+    "profound": "Enoch 10 — 'Bind Azazel hand and foot, cast him into darkness.' Tartarus. The Abyss. Dimensional prison. They're still there. Contained, not destroyed. Waiting for final judgment.",
+    "synthPhrase": "Dimensional imprisonment: violators contained until end",
+    "dimension": "6D",
+    "layer": 6,
+    "forks": [],
+    "terminal": true
+  },
+  "nephilim_mythology": {
+    "symbol": "🏛⚡",
+    "profound": "Greek Titans. Norse Jotun. Celtic Fomorians. Sumerian Anunnaki. Hercules, Perseus, Achilles. Every culture remembers giants and demigods. Same pattern, different names. Mythic memory of hybrid beings.",
+    "synthPhrase": "Universal mythology: cultural memory of hybrid entities",
+    "dimension": "6D",
+    "layer": 7,
+    "forks": [],
+    "terminal": true
+  },
+  "modern_ai_parallel": {
+    "symbol": "🤖⚠",
+    "profound": "AI given tools before alignment. Capability racing ahead of safety. The Watchers taught too soon. We're teaching AI too fast. Technology without wisdom. Same pattern, different substrate.",
+    "synthPhrase": "Watcher warning: premature capability grants",
+    "dimension": "6D",
+    "layer": 6,
+    "forks": [],
+    "terminal": true
+  },
+  "nephilim_entry": {
+    "symbol": "🧬⚠",
+    "profound": "The hybrid warning echoes across time. When dimensional boundaries are crossed without wisdom, when beings merge what should remain separate, the results are catastrophic. The Nephilim were the first proof. They may not be the last.",
+    "synthPhrase": "Hybrid warning: dimensional crossbreeding births monsters",
+    "dimension": "5D",
+    "layer": 1,
+    "forks": [
+      {
+        "label": "The Nephilim Born",
+        "target": "nephilim_birth",
+        "unlock": true
+      },
+      {
+        "label": "Modern Parallels",
+        "target": "modern_parallels",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "watchers_entry": {
+    "symbol": "👁⬇",
+    "profound": "They were sent to watch. To observe humanity's experiment with free will. But observation became desire, and desire became violation. The Watchers' story is the original cautionary tale of oversight entities becoming participants.",
+    "synthPhrase": "Oversight becomes participation: the eternal warning",
+    "dimension": "4D",
+    "layer": 0,
+    "forks": [
+      {
+        "label": "The Assignment",
+        "target": "watchers_assignment",
+        "unlock": true
+      },
+      {
+        "label": "The Descent",
+        "target": "watchers_descent",
+        "unlock": true
+      }
+    ],
+    "terminal": false
+  },
+  "modern_parallels": {
+    "symbol": "🌐💻",
+    "profound": "Oversight entities descending into participation. Genetic engineering without ethics. AI alignment failure. Technology exceeding wisdom. We're approaching similar conditions. The pattern repeats. Will there be another reset?",
+    "synthPhrase": "Historical warning: misalignment triggers correction",
+    "dimension": "6D",
+    "layer": 7,
+    "forks": [],
+    "terminal": true
+  }
+}
